@@ -1,0 +1,386 @@
+{
+  "@@locale": "ko",
+  "appTitle": "GoodWin VPN",
+  "navHome": "홈",
+  "navProfiles": "프로필",
+  "navRules": "규칙",
+  "navLogs": "로그",
+  "navSettings": "설정",
+  "connectVpn": "VPN 연결",
+  "disconnectVpn": "VPN 연결 해제",
+  "noProfile": "프로필 없음",
+  "addProfileToConnect": "연결하려면 프로필을 추가하세요",
+  "addProfileToConnectHint": "프로필에서 공유 링크를 가져온 다음 여기에서 연결을 탭하세요.",
+  "addProfile": "프로필 추가",
+  "networkStatus": "네트워크 상태",
+  "tapToDisconnect": "탭하여 연결 해제",
+  "tapToConnect": "탭하여 연결",
+  "statNode": "노드",
+  "statPing": "Ping",
+  "statUptime": "가동 시간",
+  "sessionLogs": "세션 로그",
+  "noLinesYet": "아직 줄이 없습니다",
+  "logLinesCount": "{count}줄",
+  "@logLinesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "uacDeclined": "UAC 프롬프트가 거부되었습니다",
+  "statusOffline": "연결 해제됨",
+  "statusConnecting": "연결 중",
+  "statusConnected": "연결됨",
+  "statusDisconnecting": "연결 해제 중",
+  "statusError": "오류",
+  "switchProfile": "프로필 전환",
+  "manageProfiles": "프로필 관리",
+  "routing": "라우팅",
+  "routingChipSubtitle": "{mode} · 규칙에서 변경",
+  "@routingChipSubtitle": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "routingModeGlobal": "글로벌",
+  "routingModeRules": "규칙",
+  "routingModeDirect": "다이렉트",
+  "homeReadyTitle": "연결 해제됨",
+  "homeReadyTunnel": "연결하면 이 기기에서 시스템 VPN이 시작됩니다",
+  "homeReadySocks": "이 OS에는 아직 시스템 VPN이 없습니다 — 연결은 로컬 SOCKS 프록시입니다",
+  "homeBusyTitle": "연결 중",
+  "homeBusyTunnel": "OS에 VPN 터널을 요청하는 중",
+  "homeBusySocks": "로컬 SOCKS 프록시를 시작하는 중",
+  "homeConnectedTunnelTitle": "시스템 VPN",
+  "homeConnectedTunnelSubtitle": "기기 트래픽은 터널을 통과하며 집 IP를 쓰지 않습니다",
+  "homeConnectedSocksTitle": "로컬 SOCKS",
+  "homeConnectedSocksSubtitle": "이 OS에는 시스템 터널이 없습니다. 앱은 127.0.0.1:10808을 사용해야 합니다 — IP가 숨겨지지 않습니다",
+  "revokedTitle": "구독 링크가 취소되었습니다",
+  "revokedBody": "프로필에 새 URL을 붙여넣으세요. 대체 항목을 가져올 때까지 이전 노드는 유지됩니다.",
+  "openProfiles": "프로필 열기",
+  "elevationTitle": "관리자 권한이 필요합니다",
+  "runAsAdministrator": "관리자 권한으로 실행",
+  "quotaUsedOfTotal": "{used} / {total} VLESS+Hy2",
+  "@quotaUsedOfTotal": {
+    "placeholders": {
+      "used": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "quotaUsedOnly": "{used} 사용 · VLESS+Hy2",
+  "@quotaUsedOnly": {
+    "placeholders": {
+      "used": {
+        "type": "String"
+      }
+    }
+  },
+  "quotaExpired": "만료됨",
+  "quotaDaysLeft": "{days}일 남음",
+  "@quotaDaysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "quotaScopeNote": "VLESS+Hy2 트래픽 — TrustTunnel은 집계되지 않음",
+  "profilesEyebrow": "내 네트워크",
+  "profilesTitle": "서버 프로필",
+  "tooltipPinging": "Ping 중…",
+  "tooltipCheckPing": "Ping 확인",
+  "noProfilesToPing": "Ping할 프로필이 없습니다",
+  "tooltipImportLink": "링크 또는 구독 가져오기",
+  "searchServersHint": "서버 또는 프로토콜 검색",
+  "smartConnect": "스마트 연결",
+  "smartConnectSubtitle": "홈의 연결은 현재 구독에서 Ping이 가장 낮은 노드를 사용합니다",
+  "emptyProfiles": "저장된 프로필이 아직 없습니다.\n공유 링크 또는 https:// 구독 URL을 가져오세요.",
+  "noMatches": "일치 항목 없음",
+  "pinging": "Ping 중",
+  "fastest": "가장 빠름",
+  "delete": "삭제",
+  "deleteProfileConfirm": "이 프로필을 삭제할까요?",
+  "deleteSubscriptionConfirm": "이 구독과 저장된 노드를 제거할까요?",
+  "updatedSubscription": "{name}을(를) 업데이트했습니다",
+  "@updatedSubscription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "importProfile": "프로필 가져오기",
+  "nameOptional": "이름(선택)",
+  "importLinkLabel": "공유 링크 또는 https:// 구독 URL",
+  "paste": "붙여넣기",
+  "scanQr": "QR 스캔",
+  "cancel": "취소",
+  "import": "가져오기",
+  "unrecognizedShareLink": "인식할 수 없는 공유 링크",
+  "editProfile": "프로필 편집",
+  "name": "이름",
+  "shareLink": "공유 링크",
+  "apply": "적용",
+  "importedManual": "가져옴",
+  "subscriptionFallback": "구독",
+  "revokedKeepNodes": "링크가 취소됨 — 새 URL을 붙여넣으세요. 노드는 지워지지 않았습니다.",
+  "nodesWithQuota": "{info} · 노드 {count}개",
+  "@nodesWithQuota": {
+    "placeholders": {
+      "info": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "nodesCount": "{count, plural, =1{노드 1개} other{노드 {count}개}}",
+  "@nodesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "refreshSubscription": "구독 새로고침",
+  "removeSubscription": "구독 제거",
+  "nothingToImport": "가져올 항목이 없습니다",
+  "subscriptionImported": "구독을 가져왔습니다",
+  "importedSubscriptionNodes": "{name}을(를) 가져왔습니다(노드 {count}개)",
+  "@importedSubscriptionNodes": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileImported": "프로필을 가져왔습니다",
+  "settingsEyebrow": "애플리케이션",
+  "settingsTitle": "설정",
+  "appearance": "모양",
+  "colorTheme": "색상 테마",
+  "colorThemeSubtitle": "페이퍼 라이트와 네이비 다크. 시스템은 휴대전화를 따릅니다.",
+  "themeLight": "라이트",
+  "themeDark": "다크",
+  "themeSystem": "시스템",
+  "language": "언어",
+  "languageSubtitle": "영어와 러시아어. 시스템은 휴대전화를 따릅니다.",
+  "localeSystem": "시스템",
+  "localeEnglish": "English",
+  "localeRussian": "Русский",
+  "general": "일반",
+  "advancedMode": "고급 모드",
+  "advancedModeSubtitle": "로그 탭과 고급 사용자 옵션",
+  "reconnectOnLaunch": "실행 시 다시 연결",
+  "reconnectOnLaunchSubtitle": "OS VPN이 꺼져 있으면 마지막 프로필을 시작합니다",
+  "dns": "DNS",
+  "dnsSystem": "시스템",
+  "dnsCustom": "사용자 지정",
+  "dnsDoh": "DoH",
+  "dnsServerLabel": "DNS 서버 / DoH URL",
+  "dnsSaved": "DNS 설정이 저장되었습니다",
+  "saveDns": "DNS 저장",
+  "killSwitch": "Kill Switch",
+  "killSwitchSubtitleAndroid": "Android 설정의 Always-on VPN. 여기 토글만으로는 누출을 막지 못합니다.",
+  "killSwitchSubtitleAndroidTrustTunnel": "다음 TrustTunnel 연결에서 플러그인 누출 잠금. 재부팅 후에도 Always-on이 필요합니다.",
+  "killSwitchSubtitleIos": "터널이 끊기면 다시 연결합니다. Push, Watch, iMessage는 계속 도달 가능합니다.",
+  "killSwitchSubtitleIosTrustTunnel": "이 TrustTunnel 세션의 플러그인 누출 잠금. 연결 해제는 SOCKS VPN이 시작되기 전에 끕니다.",
+  "killSwitchAndroidEnableTitle": "시스템 누출 보호 켜기",
+  "killSwitchAndroidEnableBody": "1. 다음 화면에서 GoodWin VPN(SOCKS 또는 TrustTunnel)을 탭합니다.\n2. Always-on VPN을 켭니다.\n3. VPN 없이 연결 차단을 켭니다.\n4. 여기로 돌아와 연결을 탭합니다.\n\n앱은 해당 Android 스위치를 직접 바꿀 수 없습니다. TrustTunnel은 다음 연결에서도 플러그인 누출 보호를 사용합니다.",
+  "killSwitchAndroidDisableTitle": "먼저 Always-on을 끄세요",
+  "killSwitchAndroidDisableBody": "Android VPN 설정에서 GoodWin의 Always-on VPN과 VPN 없이 연결 차단을 끄세요. 그렇지 않으면 연결 해제가 터널을 다시 가져옵니다.",
+  "killSwitchOpenSettings": "VPN 설정 열기",
+  "killSwitchDisconnectTitle": "Always-on이 다시 연결할 수 있음",
+  "killSwitchDisconnectBody": "Android Always-on VPN은 연결 해제 후 터널을 다시 가져올 수 있습니다. 네트워크를 완전히 열려면 시스템 VPN 설정에서 Always-on을 끄세요.",
+  "killSwitchDisconnectConfirm": "연결 해제",
+  "coreTuning": "코어 조정",
+  "advancedDangerTooltip": "고급 — 연결이 끊길 수 있음",
+  "mux": "Mux",
+  "muxSubtitle": "Vision에서는 사용하지 않음. 일반 VLESS는 시작됩니다",
+  "fragment": "Fragment",
+  "fragmentSubtitle": "REALITY에서는 사용하지 않음. TLS hello만",
+  "dnsHintWithTuning": "DNS IP는 연결 시 OS TUN에 적용됩니다. DoH는 Xray JSON으로 들어갑니다. TUN은 계속 부트스트랩 IP를 사용합니다. Mux / Fragment: Xray만.",
+  "dnsHintSimple": "DNS IP는 연결 시 OS TUN에 적용됩니다.",
+  "backup": "백업",
+  "exportBackup": "백업 파일 내보내기",
+  "exportBackupSubtitle": "프로필과 구독. 선택 비밀번호로 파일을 암호화합니다",
+  "importBackup": "백업 파일 가져오기",
+  "importBackupSubtitle": "현재 목록에 병합됩니다",
+  "copyJsonClipboard": "클립보드에 JSON 복사",
+  "copyJsonClipboardSubtitle": "암호화되지 않음 — 클립보드를 읽을 수 있는 사람은 링크를 볼 수 있습니다",
+  "copiedEmptyProfiles": "빈 프로필 목록을 복사했습니다",
+  "copiedProfilesJson": "암호화되지 않은 JSON으로 프로필 {count}개를 복사했습니다",
+  "@copiedProfilesJson": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "exportBackupTitle": "백업 내보내기",
+  "exportBackupPasswordHint": "일반 JSON 파일은 비워 두세요. 비밀번호는 AES-256-GCM을 사용합니다.",
+  "backupFileSaved": "백업 파일을 저장했습니다",
+  "encryptedBackupSaved": "암호화된 백업 파일을 저장했습니다",
+  "encryptedBackupTitle": "암호화된 백업",
+  "encryptedBackupHint": "내보낼 때 사용한 비밀번호를 입력하세요.",
+  "importedBackupCounts": "프로필 {profiles}개와 구독 {subs}개를 가져왔습니다",
+  "@importedBackupCounts": {
+    "placeholders": {
+      "profiles": {
+        "type": "int"
+      },
+      "subs": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordOptional": "비밀번호(선택)",
+  "password": "비밀번호",
+  "confirmPassword": "비밀번호 확인",
+  "passwordsDoNotMatch": "비밀번호가 일치하지 않습니다",
+  "continueAction": "계속",
+  "about": "정보",
+  "aboutSubtitle": "내 서버용 VPN 클라이언트",
+  "privacy": "개인정보",
+  "privacySubtitle": "카메라, VPN, 기기 내 비밀, 클립보드 백업",
+  "privacyWhatTitle": "이 앱이 사용하는 것",
+  "privacyWhatBody": "GoodWin VPN은 로컬 클라이언트입니다. 이 빌드에는 GoodWin 계정 서버와 분석 SDK가 없습니다.",
+  "privacyVpnTitle": "VPN",
+  "privacyVpnBody": "시스템 터널이 있는 플랫폼에서는 기기 트래픽이 가져온 공유 링크의 노드로 전송됩니다. 이 앱은 GoodWin 프록시를 운영하지 않습니다. 이 OS에 시스템 터널이 없으면 연결은 127.0.0.1:10808의 로컬 SOCKS 프록시만 시작합니다.",
+  "privacySecretsTitle": "구성과 비밀",
+  "privacySecretsBody": "공유 링크, 저장된 프로필, 구독 URL은 이 기기에 AES-256-GCM으로 암호화되어 저장됩니다. 암호화 키는 암호문 옆이 아니라 OS 키스토어 / 키체인이 보관합니다. 플랫폼 키스토어를 사용할 수 없으면 앱은 해당 값을 암호화된 상태로 유지할 수 없습니다.",
+  "privacyCameraTitle": "카메라",
+  "privacyCameraBody": "카메라는 공유 링크 또는 구독 URL이 담긴 QR을 스캔할 때만 사용됩니다. 프레임은 업로드되지 않습니다.",
+  "privacyClipboardTitle": "클립보드와 백업",
+  "privacyClipboardBody": "클립보드에 JSON 복사는 암호화되지 않은 백업을 씁니다. 클립보드를 읽을 수 있는 사람은 해당 링크를 볼 수 있습니다. 파일 내보내기는 선택 비밀번호(AES-256-GCM)를 사용할 수 있습니다.",
+  "privacyAppsTitle": "설치된 앱(Android)",
+  "privacyAppsBody": "앱별 스플릿 터널링은 VPN에서 앱을 제외할 수 있도록 기기의 런처 앱 목록을 읽습니다. 그 목록은 기기에 남습니다.",
+  "privacyOpenWeb": "개인정보 처리방침 열기",
+  "privacyOpenFailed": "개인정보 처리방침 URL을 열 수 없습니다",
+  "rulesEyebrow": "트래픽 정책",
+  "rulesTitle": "라우팅 규칙",
+  "reset": "재설정",
+  "resetRulesConfirm": "라우팅을 기본값으로 재설정할까요?",
+  "mode": "모드",
+  "modeHintGlobalRich": "일치하는 모든 트래픽 → 프록시(Xray 기본값).",
+  "modeHintGlobalSimple": "Hysteria2에 권장.",
+  "modeHintGlobalTrustTunnel": "Always-exclude를 제외한 모든 트래픽이 터널을 통과합니다.",
+  "modeHintRules": "프리셋 + 사용자 규칙. 불일치 → 프록시(Xray).",
+  "modeHintRulesTrustTunnel": "다이렉트 도메인/CIDR은 TrustTunnel 제외가 됩니다. Block은 건너뜁니다. 불일치는 터널에 남습니다.",
+  "modeHintDirect": "모두 → freedom. TUN은 유지(Xray만).",
+  "presets": "프리셋",
+  "presetBlockAds": "광고 차단(제한적)",
+  "presetBlockAdsPack": "광고 차단",
+  "presetBlockAdsSubtitle": "내장된 작은 호스트 목록 → block(Xray, geosite 아님)",
+  "presetBlockAdsPackXray": "서비스 광고 팩 → block(geosite 아님)",
+  "presetBlockAdsPackTrustTunnel": "서비스 광고 팩 → TrustTunnel 제외(플러그인 block 없음)",
+  "presetBypassLan": "LAN / 사설 우회",
+  "presetBypassLanSubtitle": "RFC1918 / 링크 로컬 CIDR → TUN 제외(지역/geoip 아님)",
+  "presetBypassLanAndroid13": "LAN 우회에는 Android 13+가 필요합니다. 이 버전에서는 CIDR 제외가 동작하지 않습니다.",
+  "presetProtectBanking": "뱅킹 보호",
+  "presetProtectBankingSubtitle": "설치된 은행 앱은 TUN을 건너뜁니다(Android 앱별)",
+  "appsSkipVpn": "VPN을 건너뛰는 앱",
+  "appsSkipVpnEmpty": "뱅킹 보호 외 선택적 추가",
+  "appsSkipVpnSelected": "{count}개 선택 · 다음 연결 시 적용",
+  "@appsSkipVpnSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "switchToRulesForPresets": "프리셋을 쓰려면 규칙 모드로 전환하세요.",
+  "alwaysExcludeMerged": "Always-exclude CIDR은 연결 시 모든 백엔드에서 IP-direct 규칙과 병합됩니다. 아래 고급에서 편집하세요.",
+  "alwaysExcludeCidr": "Always exclude(CIDR)",
+  "alwaysExcludeHint": "한 줄에 IP 또는 CIDR 하나. 다음 연결 시 적용됩니다.",
+  "cidrHint": "한 줄에 IP 또는 CIDR 하나\n예: 10.0.0.0/8",
+  "customRules": "사용자 규칙",
+  "customRulesHint": "도메인 접미사, IP 또는 CIDR → proxy / direct / block. 연결 시 Xray에 적용됩니다. IP direct는 OS 제외에도 들어갑니다.",
+  "customRulesHintTrustTunnel": "도메인 또는 CIDR → proxy(터널에 유지) 또는 direct(제외). Block은 사용할 수 없습니다. geosite 없음.",
+  "matcher": "매처",
+  "matcherHint": ".ads.example · 10.0.0.0/8",
+  "addRule": "규칙 추가",
+  "noCustomRules": "아직 사용자 규칙이 없습니다",
+  "osExclude": "{action} · OS 제외",
+  "@osExclude": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "routingRuleBlockSkipped": "block · TrustTunnel에서 건너뜀(플러그인 block 없음)",
+  "enableAdvancedForRouting": "추가 라우팅 제어를 위해 설정에서 고급 모드를 켜세요.",
+  "searchApps": "앱 검색",
+  "save": "저장",
+  "routingBannerXray": "Xray 프로필: 글로벌 / 규칙 / 다이렉트와 도메인 규칙은 연결 시 적용됩니다.",
+  "routingBannerHysteria": "Hysteria2 프로필: 도메인/block 규칙과 Xray 다이렉트는 적용되지 않습니다. 글로벌을 사용하세요. Always-exclude CIDR과 IP-direct는 계속 TUN에 병합됩니다.",
+  "routingBannerTrustTunnel": "TrustTunnel: 규칙의 다이렉트 도메인/CIDR은 제외가 됩니다. Block은 건너뜁니다(플러그인 block 없음). 다이렉트 모드는 적용되지 않습니다. Always-exclude는 계속 병합됩니다. 앱별 스플릿은 SOCKS만입니다. Kill Switch는 다음 TrustTunnel 연결에 적용됩니다.",
+  "routingBannerUnknown": "어떤 라우팅 기능이 적용되는지는 프로필을 선택하거나 연결하면 볼 수 있습니다.",
+  "logsEyebrow": "진단",
+  "logsTitle": "로그",
+  "copyFiltered": "필터된 항목 복사",
+  "clear": "지우기",
+  "logCopied": "로그를 복사했습니다",
+  "logsHint": "코어 콘솔. 색은 휴리스틱입니다(error/warn 키워드).",
+  "filterHint": "필터…",
+  "logsAll": "전체",
+  "logsWarnPlus": "Warn+",
+  "logsError": "오류",
+  "noLogLinesYet": "아직 로그 줄이 없습니다",
+  "noMatchesForFilter": "필터와 일치하는 항목이 없습니다",
+  "vpnConsole": "VPN 콘솔",
+  "logsSheetEmpty": "아직 줄이 없습니다. 스트림을 기다리는 중…",
+  "copy": "복사",
+  "openLogs": "로그 열기",
+  "tapToRetry": "탭하여 다시 시도",
+  "homeErrorTitle": "연결할 수 없습니다",
+  "homeErrorTunnel": "터널 실패 — 탭하여 다시 시도",
+  "homeErrorSocks": "로컬 SOCKS 실패 — 탭하여 다시 시도",
+  "activeProfile": "활성 프로필",
+  "socksInbound": "로컬 SOCKS",
+  "socksInboundSubtitle": "사용자 이름과 비밀번호를 비워 두면 연결할 때마다 임의의 자격 증명이 생성됩니다. 다른 앱: 127.0.0.1과 이 자격 증명.",
+  "socksPort": "포트",
+  "socksUsername": "사용자 이름",
+  "socksPassword": "비밀번호",
+  "saveSocks": "SOCKS 저장",
+  "socksSaved": "SOCKS가 저장되었습니다",
+  "killSwitchAndroidConfirmTitle": "Always-on을 켰나요?",
+  "killSwitchAndroidConfirmBody": "앱은 Android VPN 스위치를 바꿀 수 없습니다. GoodWin VPN에 Always-on과 VPN 없이 연결 차단이 켜진 뒤에만 여기에서 Kill Switch를 켜세요.",
+  "killSwitchAndroidConfirmYes": "네, 켜져 있습니다",
+  "killSwitchAndroidConfirmNo": "아직 아님",
+  "killSwitchIosDisconnectFailed": "온디맨드를 끌 수 없습니다. 다시 시도할 때까지 연결 해제가 유지되지 않을 수 있습니다.",
+  "support": "지원",
+  "supportSubtitle": "운영자 지원 페이지 열기",
+  "supportUnavailable": "이 구독에 지원 URL이 없습니다",
+  "licenses": "오픈 소스 라이선스",
+  "licensesSubtitle": "이 앱에 포함된 코어와 라이브러리",
+  "licensesBody": "이 앱은 Xray-core, Hysteria 2, hev-socks5-tunnel, TrustTunnel, Flutter, Inter(SIL OFL)를 포함합니다. 소스와 라이선스는 프로젝트 저장소에 있습니다.",
+  "onboardingSkip": "건너뛰기",
+  "onboardingNext": "다음",
+  "onboardingDone": "시작하기",
+  "onboardingServerTitle": "내 서버",
+  "onboardingServerBody": "GoodWin VPN은 가져오는 노드용 클라이언트입니다. GoodWin 클라우드 프록시는 없습니다. 프로필에서 공유 링크 또는 https 구독 URL을 추가하세요.",
+  "onboardingVpnTitle": "시스템 VPN",
+  "onboardingVpnBody": "연결은 OS에 VPN 구성을 추가하도록 요청합니다. 그 대화상자는 Android 또는 iOS의 것이며 이 앱이 아닙니다. 이후 트래픽은 선택한 프로필의 노드로 갑니다.",
+  "onboardingCameraTitle": "QR용 카메라",
+  "onboardingCameraBody": "카메라는 선택 사항이며 공유 링크 또는 구독 URL이 있는 QR만 스캔합니다. 프레임은 기기에 남습니다.",
+  "vpnExplainerTitle": "시스템 VPN 권한",
+  "vpnExplainerBody": "다음 화면은 OS VPN 대화상자입니다. 이 기기가 가져온 노드를 통해 트래픽을 보내려는 경우에만 허용하세요.",
+  "vpnExplainerContinue": "계속",
+  "cameraExplainerTitle": "카메라 권한",
+  "cameraExplainerBody": "다음 화면에서 카메라를 요청할 수 있습니다. 구성 QR을 스캔할 때만 사용됩니다. 프레임은 업로드되지 않습니다.",
+  "cameraExplainerContinue": "QR 스캔",
+  "importLinkHint": "공유 링크 또는 https:// 구독 URL을 붙여넣으세요. 이 앱은 프록시를 호스팅하지 않습니다."
+}

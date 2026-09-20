@@ -1,0 +1,75 @@
+platform :osx, '13.0'
+
+# CocoaPods analytics sends network stats synchronously affecting flutter build latency.
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+
+project 'Runner', {
+  'Debug' => :debug,
+  'Profile' => :release,
+  'Release' => :release,
+}
+
+def flutter_root
+  generated_xcode_build_settings_path = File.expand_path(File.join('..', 'Flutter', 'ephemeral', 'Flutter-Generated.xcconfig'), __FILE__)
+  unless File.exist?(generated_xcode_build_settings_path)
+    raise "#{generated_xcode_build_settings_path} must exist. If you're running pod install manually, make sure \"flutter pub get\" is executed first"
+  end
+
+  File.foreach(generated_xcode_build_settings_path) do |line|
+    matches = line.match(/FLUTTER_ROOT\=(.*)/)
+    return matches[1].strip if matches
+  end
+  raise "FLUTTER_ROOT not found in #{generated_xcode_build_settings_path}. Try deleting Flutter-Generated.xcconfig, then run \"flutter pub get\""
+end
+
+require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelper'), flutter_root)
+
+flutter_macos_podfile_setup
+
+# vpn_plugin (path dep) needs TrustTunnelClient — not on CocoaPods trunk.
+# Same pattern as refs/trusttunnel-client/macos/Podfile; zip from GitHub Packages.
+def ensure_gpr_key!
+  return unless ENV['GPR_KEY'].to_s.strip.empty?
+
+  pat = File.expand_path('../../configs/secrets/github-pat', __dir__)
+  ENV['GPR_KEY'] = File.read(pat).strip if File.file?(pat)
+  return unless ENV['GPR_KEY'].to_s.strip.empty?
+
+  raise <<~MSG
+    TrustTunnelClient pod needs GitHub Packages auth.
+    Set GPR_KEY or put a read:packages token in configs/secrets/github-pat
+    (see docs/platforms/macos.md).
+  MSG
+end
+
+ensure_gpr_key!
+
+pod 'TrustTunnelClient', :podspec => '../../refs/trusttunnel-client/specs/TrustTunnelClient.podspec'
+
+target 'Runner' do
+  use_frameworks!
+  use_modular_headers!
+
+  flutter_install_all_macos_pods File.dirname(File.realpath(__FILE__))
+  target 'RunnerTests' do
+    inherit! :search_paths
+  end
+end
+
+# TrustTunnel Packet Tunnel (P-T2) — same TrustTunnelClient xcframework as Runner.
+target 'Extension' do
+  use_frameworks!
+end
+
+# SOCKS Packet Tunnel (P-M3) — Go tun2socks archive only; no TrustTunnelClient.
+target 'SocksTunnel' do
+  use_frameworks!
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    flutter_additional_macos_build_settings(target)
+  end
+  patch = File.expand_path('../../tools/patch_trusttunnel_apple_version.mjs', __dir__)
+  system('node', patch) or raise 'patch_trusttunnel_apple_version.mjs failed'
+end

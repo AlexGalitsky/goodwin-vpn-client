@@ -1,0 +1,28 @@
+PODS:
+  - FlutterMacOS (1.0.0)
+  - TrustTunnelClient (1.1.5-rc.6)
+  - vpn_plugin (0.0.1):
+    - FlutterMacOS
+    - TrustTunnelClient
+
+DEPENDENCIES:
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - TrustTunnelClient (from `../../refs/trusttunnel-client/specs/TrustTunnelClient.podspec`)
+  - vpn_plugin (from `Flutter/ephemeral/.symlinks/plugins/vpn_plugin/macos`)
+
+EXTERNAL SOURCES:
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  TrustTunnelClient:
+    :podspec: "../../refs/trusttunnel-client/specs/TrustTunnelClient.podspec"
+  vpn_plugin:
+    :path: Flutter/ephemeral/.symlinks/plugins/vpn_plugin/macos
+
+SPEC CHECKSUMS:
+  FlutterMacOS: c232990155153907050900a2e175c7773903ba4e
+  TrustTunnelClient: 63f95b8005361b89e7a80d63852f159a24ec2795
+  vpn_plugin: 39c007f1c0d89394e9446539110f46a63caf53c6
+
+PODFILE CHECKSUM: 2b161c78181a318be19a660ec7bb9e203b771b44
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,386 @@
+{
+  "@@locale": "hi",
+  "appTitle": "GoodWin VPN",
+  "navHome": "होम",
+  "navProfiles": "प्रोफ़ाइल",
+  "navRules": "नियम",
+  "navLogs": "लॉग",
+  "navSettings": "सेटिंग",
+  "connectVpn": "VPN कनेक्ट करें",
+  "disconnectVpn": "VPN डिस्कनेक्ट करें",
+  "noProfile": "कोई प्रोफ़ाइल नहीं",
+  "addProfileToConnect": "कनेक्ट करने के लिए प्रोफ़ाइल जोड़ें",
+  "addProfileToConnectHint": "प्रोफ़ाइल पर शेयर लिंक इंपोर्ट करें, फिर यहाँ कनेक्ट टैप करें।",
+  "addProfile": "प्रोफ़ाइल जोड़ें",
+  "networkStatus": "नेटवर्क स्थिति",
+  "tapToDisconnect": "डिस्कनेक्ट करने के लिए टैप करें",
+  "tapToConnect": "कनेक्ट करने के लिए टैप करें",
+  "statNode": "नोड",
+  "statPing": "Ping",
+  "statUptime": "अपटाइम",
+  "sessionLogs": "सत्र लॉग",
+  "noLinesYet": "अभी कोई पंक्ति नहीं",
+  "logLinesCount": "{count} पंक्तियाँ",
+  "@logLinesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "uacDeclined": "UAC प्रॉम्प्ट अस्वीकार किया गया",
+  "statusOffline": "डिस्कनेक्टेड",
+  "statusConnecting": "कनेक्ट हो रहा है",
+  "statusConnected": "कनेक्टेड",
+  "statusDisconnecting": "डिस्कनेक्ट हो रहा है",
+  "statusError": "त्रुटि",
+  "switchProfile": "प्रोफ़ाइल बदलें",
+  "manageProfiles": "प्रोफ़ाइल प्रबंधित करें",
+  "routing": "रूटिंग",
+  "routingChipSubtitle": "{mode} · नियमों में बदलें",
+  "@routingChipSubtitle": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "routingModeGlobal": "ग्लोबल",
+  "routingModeRules": "नियम",
+  "routingModeDirect": "डायरेक्ट",
+  "homeReadyTitle": "डिस्कनेक्टेड",
+  "homeReadyTunnel": "कनेक्ट इस डिवाइस पर सिस्टम VPN शुरू करता है",
+  "homeReadySocks": "इस OS पर अभी सिस्टम VPN नहीं है — कनेक्ट एक लोकल SOCKS प्रॉक्सी है",
+  "homeBusyTitle": "कनेक्ट हो रहा है",
+  "homeBusyTunnel": "OS से VPN टनल माँगा जा रहा है",
+  "homeBusySocks": "लोकल SOCKS प्रॉक्सी शुरू हो रही है",
+  "homeConnectedTunnelTitle": "सिस्टम VPN",
+  "homeConnectedTunnelSubtitle": "डिवाइस ट्रैफ़िक टनल से जाता है, आपके होम IP से नहीं",
+  "homeConnectedSocksTitle": "लोकल SOCKS",
+  "homeConnectedSocksSubtitle": "इस OS पर सिस्टम टनल नहीं है। ऐप्स को 127.0.0.1:10808 इस्तेमाल करना होगा — आपका IP छिपा नहीं है",
+  "revokedTitle": "सब्सक्रिप्शन लिंक रद्द कर दिया गया",
+  "revokedBody": "प्रोफ़ाइल पर नया URL पेस्ट करें। बदले का इंपोर्ट होने तक पुराने नोड रहेंगे।",
+  "openProfiles": "प्रोफ़ाइल खोलें",
+  "elevationTitle": "एडमिनिस्ट्रेटर अधिकार आवश्यक",
+  "runAsAdministrator": "एडमिनिस्ट्रेटर के रूप में चलाएँ",
+  "quotaUsedOfTotal": "{used} / {total} VLESS+Hy2",
+  "@quotaUsedOfTotal": {
+    "placeholders": {
+      "used": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "quotaUsedOnly": "{used} उपयोग · VLESS+Hy2",
+  "@quotaUsedOnly": {
+    "placeholders": {
+      "used": {
+        "type": "String"
+      }
+    }
+  },
+  "quotaExpired": "समाप्त",
+  "quotaDaysLeft": "{days} दिन शेष",
+  "@quotaDaysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "quotaScopeNote": "VLESS+Hy2 ट्रैफ़िक — TrustTunnel गिना नहीं जाता",
+  "profilesEyebrow": "आपका नेटवर्क",
+  "profilesTitle": "सर्वर प्रोफ़ाइल",
+  "tooltipPinging": "Ping हो रहा है…",
+  "tooltipCheckPing": "Ping जाँचें",
+  "noProfilesToPing": "Ping के लिए कोई प्रोफ़ाइल नहीं",
+  "tooltipImportLink": "लिंक या सब्सक्रिप्शन इंपोर्ट करें",
+  "searchServersHint": "सर्वर या प्रोटोकॉल खोजें",
+  "smartConnect": "स्मार्ट कनेक्ट",
+  "smartConnectSubtitle": "होम कनेक्ट मौजूदा सब्सक्रिप्शन में सबसे कम Ping वाले नोड का उपयोग करता है",
+  "emptyProfiles": "अभी कोई सहेजी प्रोफ़ाइल नहीं।\nशेयर लिंक या https:// सब्सक्रिप्शन URL इंपोर्ट करें।",
+  "noMatches": "कोई मेल नहीं",
+  "pinging": "Ping हो रहा है",
+  "fastest": "सबसे तेज़",
+  "delete": "हटाएँ",
+  "deleteProfileConfirm": "यह प्रोफ़ाइल हटाएँ?",
+  "deleteSubscriptionConfirm": "यह सब्सक्रिप्शन और उसके सहेजे नोड हटाएँ?",
+  "updatedSubscription": "{name} अपडेट हुआ",
+  "@updatedSubscription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "importProfile": "प्रोफ़ाइल इंपोर्ट करें",
+  "nameOptional": "नाम (वैकल्पिक)",
+  "importLinkLabel": "शेयर लिंक या https:// सब्सक्रिप्शन URL",
+  "paste": "पेस्ट",
+  "scanQr": "QR स्कैन करें",
+  "cancel": "रद्द करें",
+  "import": "इंपोर्ट",
+  "unrecognizedShareLink": "अज्ञात शेयर लिंक",
+  "editProfile": "प्रोफ़ाइल संपादित करें",
+  "name": "नाम",
+  "shareLink": "शेयर लिंक",
+  "apply": "लागू करें",
+  "importedManual": "इंपोर्ट किया गया",
+  "subscriptionFallback": "सब्सक्रिप्शन",
+  "revokedKeepNodes": "लिंक रद्द — नया URL पेस्ट करें। नोड साफ़ नहीं किए गए।",
+  "nodesWithQuota": "{info} · {count} नोड",
+  "@nodesWithQuota": {
+    "placeholders": {
+      "info": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "nodesCount": "{count, plural, =1{1 नोड} other{{count} नोड}}",
+  "@nodesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "refreshSubscription": "सब्सक्रिप्शन रीफ़्रेश करें",
+  "removeSubscription": "सब्सक्रिप्शन हटाएँ",
+  "nothingToImport": "इंपोर्ट करने के लिए कुछ नहीं",
+  "subscriptionImported": "सब्सक्रिप्शन इंपोर्ट हुआ",
+  "importedSubscriptionNodes": "{name} इंपोर्ट हुआ ({count} नोड)",
+  "@importedSubscriptionNodes": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileImported": "प्रोफ़ाइल इंपोर्ट हुई",
+  "settingsEyebrow": "एप्लिकेशन",
+  "settingsTitle": "सेटिंग",
+  "appearance": "दिखावट",
+  "colorTheme": "रंग थीम",
+  "colorThemeSubtitle": "पेपर लाइट और नेवी डार्क। सिस्टम फ़ोन का अनुसरण करता है।",
+  "themeLight": "लाइट",
+  "themeDark": "डार्क",
+  "themeSystem": "सिस्टम",
+  "language": "भाषा",
+  "languageSubtitle": "अंग्रेज़ी और रूसी। सिस्टम फ़ोन का अनुसरण करता है।",
+  "localeSystem": "सिस्टम",
+  "localeEnglish": "English",
+  "localeRussian": "Русский",
+  "general": "सामान्य",
+  "advancedMode": "एडवांस्ड मोड",
+  "advancedModeSubtitle": "लॉग टैब और पावर-यूज़र विकल्प",
+  "reconnectOnLaunch": "लॉन्च पर फिर कनेक्ट करें",
+  "reconnectOnLaunchSubtitle": "OS VPN बंद हो तो पिछली प्रोफ़ाइल शुरू करें",
+  "dns": "DNS",
+  "dnsSystem": "सिस्टम",
+  "dnsCustom": "कस्टम",
+  "dnsDoh": "DoH",
+  "dnsServerLabel": "DNS सर्वर / DoH URL",
+  "dnsSaved": "DNS पसंद सहेजी गई",
+  "saveDns": "DNS सहेजें",
+  "killSwitch": "Kill Switch",
+  "killSwitchSubtitleAndroid": "Android सेटिंग में Always-on VPN। यहाँ का टॉगल अकेले लीक-प्रूफ़ नहीं है।",
+  "killSwitchSubtitleAndroidTrustTunnel": "अगले TrustTunnel कनेक्ट पर प्लगइन लीक-लॉक। रीबूट के बाद भी Always-on चाहिए।",
+  "killSwitchSubtitleIos": "टनल गिरे तो फिर कनेक्ट करता है। Push, Watch और iMessage पहुँच योग्य रहते हैं।",
+  "killSwitchSubtitleIosTrustTunnel": "इस TrustTunnel सत्र के लिए प्लगइन लीक-लॉक। डिस्कनेक्ट SOCKS VPN शुरू होने से पहले इसे बंद करता है।",
+  "killSwitchAndroidEnableTitle": "सिस्टम लीक सुरक्षा चालू करें",
+  "killSwitchAndroidEnableBody": "1. अगली स्क्रीन पर GoodWin VPN (SOCKS या TrustTunnel) टैप करें।\n2. Always-on VPN चालू करें।\n3. VPN के बिना कनेक्शन ब्लॉक चालू करें।\n4. यहाँ लौटें और कनेक्ट टैप करें।\n\nऐप ये Android स्विच खुद नहीं बदल सकता। TrustTunnel अगले कनेक्ट पर प्लगइन लीक सुरक्षा भी उपयोग करता है।",
+  "killSwitchAndroidDisableTitle": "पहले Always-on बंद करें",
+  "killSwitchAndroidDisableBody": "Android VPN सेटिंग में GoodWin के लिए Always-on VPN और VPN के बिना कनेक्शन ब्लॉक बंद करें। वरना डिस्कनेक्ट टनल वापस लाएगा।",
+  "killSwitchOpenSettings": "VPN सेटिंग खोलें",
+  "killSwitchDisconnectTitle": "Always-on फिर कनेक्ट कर सकता है",
+  "killSwitchDisconnectBody": "Android Always-on VPN डिस्कनेक्ट के बाद टनल वापस ला सकता है। नेटवर्क पूरी तरह खुला चाहिए तो सिस्टम VPN सेटिंग में Always-on बंद करें।",
+  "killSwitchDisconnectConfirm": "डिस्कनेक्ट",
+  "coreTuning": "कोर ट्यूनिंग",
+  "advancedDangerTooltip": "एडवांस्ड — कनेक्टिविटी टूट सकती है",
+  "mux": "Mux",
+  "muxSubtitle": "Vision के साथ नहीं — सामान्य VLESS चालू रहता है",
+  "fragment": "Fragment",
+  "fragmentSubtitle": "REALITY पर नहीं — केवल TLS hello",
+  "dnsHintWithTuning": "DNS IP कनेक्ट पर OS TUN पर लागू होते हैं। DoH Xray JSON में जाता है; TUN फिर भी बूटस्ट्रैप IP उपयोग करता है। Mux / Fragment: केवल Xray।",
+  "dnsHintSimple": "DNS IP कनेक्ट पर OS TUN पर लागू होते हैं।",
+  "backup": "बैकअप",
+  "exportBackup": "बैकअप फ़ाइल एक्सपोर्ट करें",
+  "exportBackupSubtitle": "प्रोफ़ाइल और सब्सक्रिप्शन। वैकल्पिक पासवर्ड फ़ाइल एन्क्रिप्ट करता है",
+  "importBackup": "बैकअप फ़ाइल इंपोर्ट करें",
+  "importBackupSubtitle": "वर्तमान कैटलॉग में मर्ज होता है",
+  "copyJsonClipboard": "क्लिपबोर्ड पर JSON कॉपी करें",
+  "copyJsonClipboardSubtitle": "अनएन्क्रिप्टेड — क्लिपबोर्ड पढ़ने वाला लिंक देख सकता है",
+  "copiedEmptyProfiles": "खाली प्रोफ़ाइल सूची कॉपी हुई",
+  "copiedProfilesJson": "{count} प्रोफ़ाइल अनएन्क्रिप्टेड JSON के रूप में कॉपी हुईं",
+  "@copiedProfilesJson": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "exportBackupTitle": "बैकअप एक्सपोर्ट करें",
+  "exportBackupPasswordHint": "सादा JSON फ़ाइल के लिए खाली छोड़ें। पासवर्ड AES-256-GCM उपयोग करता है।",
+  "backupFileSaved": "बैकअप फ़ाइल सहेजी गई",
+  "encryptedBackupSaved": "एन्क्रिप्टेड बैकअप फ़ाइल सहेजी गई",
+  "encryptedBackupTitle": "एन्क्रिप्टेड बैकअप",
+  "encryptedBackupHint": "एक्सपोर्ट करते समय इस्तेमाल किया पासवर्ड दर्ज करें।",
+  "importedBackupCounts": "{profiles} प्रोफ़ाइल और {subs} सब्सक्रिप्शन इंपोर्ट हुए",
+  "@importedBackupCounts": {
+    "placeholders": {
+      "profiles": {
+        "type": "int"
+      },
+      "subs": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordOptional": "पासवर्ड (वैकल्पिक)",
+  "password": "पासवर्ड",
+  "confirmPassword": "पासवर्ड की पुष्टि करें",
+  "passwordsDoNotMatch": "पासवर्ड मेल नहीं खाते",
+  "continueAction": "जारी रखें",
+  "about": "परिचय",
+  "aboutSubtitle": "आपके अपने सर्वर के लिए VPN क्लाइंट",
+  "privacy": "गोपनीयता",
+  "privacySubtitle": "कैमरा, VPN, डिवाइस पर सीक्रेट, क्लिपबोर्ड बैकअप",
+  "privacyWhatTitle": "यह ऐप क्या उपयोग करता है",
+  "privacyWhatBody": "GoodWin VPN एक लोकल क्लाइंट है। इस बिल्ड में कोई GoodWin अकाउंट सर्वर और कोई एनालिटिक्स SDK नहीं है।",
+  "privacyVpnTitle": "VPN",
+  "privacyVpnBody": "सिस्टम टनल वाले प्लेटफ़ॉर्म पर डिवाइस ट्रैफ़िक आपके इंपोर्ट किए शेयर लिंक के नोड पर भेजा जाता है। ऐप GoodWin प्रॉक्सी नहीं चलाता। यदि इस OS पर सिस्टम टनल नहीं है, तो कनेक्ट केवल 127.0.0.1:10808 पर लोकल SOCKS प्रॉक्सी शुरू करता है।",
+  "privacySecretsTitle": "कॉन्फ़िग और सीक्रेट",
+  "privacySecretsBody": "शेयर लिंक, सहेजी प्रोफ़ाइल और सब्सक्रिप्शन URL इस डिवाइस पर AES-256-GCM से एन्क्रिप्ट करके रखे जाते हैं। एन्क्रिप्शन कुंजी सिफरटेक्स्ट के पास नहीं, OS कीस्टोर / कीचेन में रहती है। यदि प्लेटफ़ॉर्म कीस्टोर उपलब्ध नहीं है, तो ऐप उन मानों को एन्क्रिप्ट नहीं रख सकता।",
+  "privacyCameraTitle": "कैमरा",
+  "privacyCameraBody": "कैमरा केवल उस QR को स्कैन करने के लिए है जिसमें शेयर लिंक या सब्सक्रिप्शन URL हो। फ़्रेम अपलोड नहीं होते।",
+  "privacyClipboardTitle": "क्लिपबोर्ड और बैकअप",
+  "privacyClipboardBody": "क्लिपबोर्ड पर JSON कॉपी अनएन्क्रिप्टेड बैकअप लिखता है। जो क्लिपबोर्ड पढ़ सकता है वह वे लिंक पढ़ सकता है। फ़ाइल एक्सपोर्ट वैकल्पिक पासवर्ड (AES-256-GCM) उपयोग कर सकता है।",
+  "privacyAppsTitle": "इंस्टॉल ऐप्स (Android)",
+  "privacyAppsBody": "प्रति-ऐप स्प्लिट टनलिंग डिवाइस पर लॉन्चर ऐप सूची पढ़ती है ताकि आप ऐप्स को VPN से बाहर कर सकें। वह सूची डिवाइस पर रहती है।",
+  "privacyOpenWeb": "गोपनीयता नीति खोलें",
+  "privacyOpenFailed": "गोपनीयता नीति URL नहीं खुल सका",
+  "rulesEyebrow": "ट्रैफ़िक नीति",
+  "rulesTitle": "रूटिंग नियम",
+  "reset": "रीसेट",
+  "resetRulesConfirm": "रूटिंग डिफ़ॉल्ट पर रीसेट करें?",
+  "mode": "मोड",
+  "modeHintGlobalRich": "सारा मेल खाता ट्रैफ़िक → प्रॉक्सी (Xray डिफ़ॉल्ट)।",
+  "modeHintGlobalSimple": "Hysteria2 के लिए अनुशंसित।",
+  "modeHintGlobalTrustTunnel": "Always-exclude को छोड़कर सारा ट्रैफ़िक टनल से।",
+  "modeHintRules": "प्रीसेट + कस्टम नियम; बेमेल → प्रॉक्सी (Xray)।",
+  "modeHintRulesTrustTunnel": "डायरेक्ट डोमेन/CIDR TrustTunnel बहिष्करण बनते हैं। Block छोड़ दिया जाता है। बेमेल टनल में रहता है।",
+  "modeHintDirect": "सब → freedom। TUN चालू रहता है (केवल Xray)।",
+  "presets": "प्रीसेट",
+  "presetBlockAds": "विज्ञापन ब्लॉक (सीमित)",
+  "presetBlockAdsPack": "विज्ञापन ब्लॉक",
+  "presetBlockAdsSubtitle": "छोटी अंतर्निहित होस्ट सूची → block (Xray; geosite नहीं)",
+  "presetBlockAdsPackXray": "सेवा विज्ञापन पैक → block (geosite नहीं)",
+  "presetBlockAdsPackTrustTunnel": "सेवा विज्ञापन पैक → TrustTunnel बहिष्करण (प्लगइन block नहीं)",
+  "presetBypassLan": "LAN / निजी बायपास",
+  "presetBypassLanSubtitle": "RFC1918 / लिंक-लोकल CIDR → TUN बहिष्करण (क्षेत्र/geoip नहीं)",
+  "presetBypassLanAndroid13": "LAN बायपास के लिए Android 13+ चाहिए। इस संस्करण पर CIDR बहिष्करण कुछ नहीं करते।",
+  "presetProtectBanking": "बैंकिंग सुरक्षित करें",
+  "presetProtectBankingSubtitle": "इंस्टॉल बैंक ऐप्स TUN छोड़ते हैं (Android प्रति-ऐप)",
+  "appsSkipVpn": "ऐप्स जो VPN छोड़ते हैं",
+  "appsSkipVpnEmpty": "बैंकिंग सुरक्षा के अलावा वैकल्पिक अतिरिक्त",
+  "appsSkipVpnSelected": "{count} चयनित · अगले कनेक्ट पर लागू",
+  "@appsSkipVpnSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "switchToRulesForPresets": "प्रीसेट उपयोग के लिए नियम मोड पर जाएँ।",
+  "alwaysExcludeMerged": "Always-exclude CIDR हर बैकएंड के लिए कनेक्ट पर IP-direct नियमों के साथ मर्ज होते हैं। उन्हें नीचे एडवांस्ड में संपादित करें।",
+  "alwaysExcludeCidr": "Always exclude (CIDR)",
+  "alwaysExcludeHint": "प्रति पंक्ति एक IP या CIDR। अगले कनेक्ट पर लागू।",
+  "cidrHint": "प्रति पंक्ति एक IP या CIDR\nउदा. 10.0.0.0/8",
+  "customRules": "कस्टम नियम",
+  "customRulesHint": "डोमेन सफ़िक्स, IP या CIDR → proxy / direct / block। कनेक्ट पर Xray पर लागू। IP direct OS बहिष्करण भी भरता है।",
+  "customRulesHintTrustTunnel": "डोमेन या CIDR → proxy (टनल में रहें) या direct (बहिष्कृत)। Block उपलब्ध नहीं। कोई geosite नहीं।",
+  "matcher": "मैचर",
+  "matcherHint": ".ads.example · 10.0.0.0/8",
+  "addRule": "नियम जोड़ें",
+  "noCustomRules": "अभी कोई कस्टम नियम नहीं",
+  "osExclude": "{action} · OS बहिष्करण",
+  "@osExclude": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "routingRuleBlockSkipped": "block · TrustTunnel पर छोड़ा गया (प्लगइन block नहीं)",
+  "enableAdvancedForRouting": "अतिरिक्त रूटिंग नियंत्रण के लिए सेटिंग में एडवांस्ड मोड चालू करें।",
+  "searchApps": "ऐप खोजें",
+  "save": "सहेजें",
+  "routingBannerXray": "Xray प्रोफ़ाइल: ग्लोबल / नियम / डायरेक्ट और डोमेन नियम कनेक्ट पर लागू होते हैं।",
+  "routingBannerHysteria": "Hysteria2 प्रोफ़ाइल: डोमेन/block नियम और Xray डायरेक्ट लागू नहीं होते। ग्लोबल उपयोग करें; Always-exclude CIDR और IP-direct फिर भी TUN में मर्ज होते हैं।",
+  "routingBannerTrustTunnel": "TrustTunnel: नियमों के डायरेक्ट डोमेन/CIDR बहिष्करण बनते हैं। Block छोड़ा जाता है (प्लगइन block नहीं)। डायरेक्ट मोड लागू नहीं होता। Always-exclude फिर भी मर्ज होता है। प्रति-ऐप स्प्लिट केवल SOCKS है। Kill Switch अगले TrustTunnel कनेक्ट पर लागू होता है।",
+  "routingBannerUnknown": "कौन से रूटिंग फ़ीचर लागू होते हैं, यह देखने के लिए प्रोफ़ाइल चुनें या कनेक्ट करें।",
+  "logsEyebrow": "निदान",
+  "logsTitle": "लॉग",
+  "copyFiltered": "फ़िल्टर किया कॉपी करें",
+  "clear": "साफ़ करें",
+  "logCopied": "लॉग कॉपी हुआ",
+  "logsHint": "कोर कंसोल। रंग अनुमानित हैं (error/warn कीवर्ड)।",
+  "filterHint": "फ़िल्टर…",
+  "logsAll": "सभी",
+  "logsWarnPlus": "Warn+",
+  "logsError": "त्रुटि",
+  "noLogLinesYet": "अभी कोई लॉग पंक्ति नहीं",
+  "noMatchesForFilter": "फ़िल्टर से कोई मेल नहीं",
+  "vpnConsole": "VPN कंसोल",
+  "logsSheetEmpty": "अभी कोई पंक्ति नहीं। स्ट्रीम की प्रतीक्षा…",
+  "copy": "कॉपी",
+  "openLogs": "लॉग खोलें",
+  "tapToRetry": "फिर कोशिश के लिए टैप करें",
+  "homeErrorTitle": "कनेक्ट नहीं हो सका",
+  "homeErrorTunnel": "टनल विफल — फिर कोशिश के लिए टैप करें",
+  "homeErrorSocks": "लोकल SOCKS विफल — फिर कोशिश के लिए टैप करें",
+  "activeProfile": "सक्रिय प्रोफ़ाइल",
+  "socksInbound": "लोकल SOCKS",
+  "socksInboundSubtitle": "प्रत्येक कनेक्ट पर यादृच्छिक क्रेडेंशियल बनाने के लिए उपयोगकर्ता और पासवर्ड खाली छोड़ें। अन्य ऐप्स: 127.0.0.1 और ये क्रेडेंशियल।",
+  "socksPort": "पोर्ट",
+  "socksUsername": "उपयोगकर्ता नाम",
+  "socksPassword": "पासवर्ड",
+  "saveSocks": "SOCKS सहेजें",
+  "socksSaved": "SOCKS सहेजा गया",
+  "killSwitchAndroidConfirmTitle": "क्या आपने Always-on चालू किया?",
+  "killSwitchAndroidConfirmBody": "ऐप Android VPN स्विच नहीं बदल सकता। GoodWin VPN के लिए Always-on और VPN के बिना कनेक्शन ब्लॉक चालू होने के बाद ही यहाँ Kill Switch चालू करें।",
+  "killSwitchAndroidConfirmYes": "हाँ, वे चालू हैं",
+  "killSwitchAndroidConfirmNo": "अभी नहीं",
+  "killSwitchIosDisconnectFailed": "ऑन-डिमांड बंद नहीं हो सका। फिर कोशिश तक डिस्कनेक्ट टिक नहीं सकता।",
+  "support": "सहायता",
+  "supportSubtitle": "ऑपरेटर सहायता पृष्ठ खोलें",
+  "supportUnavailable": "इस सब्सक्रिप्शन में कोई सहायता URL नहीं",
+  "licenses": "ओपन-सोर्स लाइसेंस",
+  "licensesSubtitle": "इस ऐप में बंडल कोर और लाइब्रेरी",
+  "licensesBody": "यह ऐप Xray-core, Hysteria 2, hev-socks5-tunnel, TrustTunnel, Flutter और Inter (SIL OFL) बंडल करता है। स्रोत और लाइसेंस प्रोजेक्ट रिपॉज़िटरी में हैं।",
+  "onboardingSkip": "छोड़ें",
+  "onboardingNext": "आगे",
+  "onboardingDone": "शुरू करें",
+  "onboardingServerTitle": "आपका सर्वर",
+  "onboardingServerBody": "GoodWin VPN आपके इंपोर्ट किए नोड का क्लाइंट है। कोई GoodWin क्लाउड प्रॉक्सी नहीं है। प्रोफ़ाइल पर शेयर लिंक या https सब्सक्रिप्शन URL जोड़ें।",
+  "onboardingVpnTitle": "सिस्टम VPN",
+  "onboardingVpnBody": "कनेक्ट OS से VPN कॉन्फ़िगरेशन जोड़ने को कहता है। वह डायलॉग Android या iOS का है, इस ऐप का नहीं। फिर ट्रैफ़िक आपके चुने प्रोफ़ाइल के नोड पर जाता है।",
+  "onboardingCameraTitle": "QR के लिए कैमरा",
+  "onboardingCameraBody": "कैमरा वैकल्पिक है और केवल शेयर लिंक या सब्सक्रिप्शन URL वाले QR को स्कैन करता है। फ़्रेम डिवाइस पर रहते हैं।",
+  "vpnExplainerTitle": "सिस्टम VPN अनुमति",
+  "vpnExplainerBody": "अगली स्क्रीन OS VPN डायलॉग है। तभी अनुमति दें जब आप चाहें कि यह डिवाइस इंपोर्ट किए नोड से ट्रैफ़िक भेजे।",
+  "vpnExplainerContinue": "जारी रखें",
+  "cameraExplainerTitle": "कैमरा अनुमति",
+  "cameraExplainerBody": "अगली स्क्रीन कैमरा माँग सकती है। यह केवल कॉन्फ़िगरेशन QR स्कैन के लिए है। फ़्रेम अपलोड नहीं होते।",
+  "cameraExplainerContinue": "QR स्कैन करें",
+  "importLinkHint": "शेयर लिंक या https:// सब्सक्रिप्शन URL पेस्ट करें। ऐप प्रॉक्सी होस्ट नहीं करता।"
+}

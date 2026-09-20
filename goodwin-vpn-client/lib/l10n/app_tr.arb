@@ -1,0 +1,386 @@
+{
+  "@@locale": "tr",
+  "appTitle": "GoodWin VPN",
+  "navHome": "Ana sayfa",
+  "navProfiles": "Profiller",
+  "navRules": "Kurallar",
+  "navLogs": "Günlükler",
+  "navSettings": "Ayarlar",
+  "connectVpn": "VPN bağla",
+  "disconnectVpn": "VPN kes",
+  "noProfile": "Profil yok",
+  "addProfileToConnect": "Bağlanmak için profil ekleyin",
+  "addProfileToConnectHint": "Profiller’de bir paylaşım bağlantısı içe aktarın, sonra burada Bağla’ya dokunun.",
+  "addProfile": "Profil ekle",
+  "networkStatus": "AĞ DURUMU",
+  "tapToDisconnect": "Kesmek için dokunun",
+  "tapToConnect": "Bağlanmak için dokunun",
+  "statNode": "Düğüm",
+  "statPing": "Ping",
+  "statUptime": "Süre",
+  "sessionLogs": "Oturum günlükleri",
+  "noLinesYet": "Henüz satır yok",
+  "logLinesCount": "{count} satır",
+  "@logLinesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "uacDeclined": "UAC istemi reddedildi",
+  "statusOffline": "bağlı değil",
+  "statusConnecting": "bağlanıyor",
+  "statusConnected": "bağlı",
+  "statusDisconnecting": "kesiliyor",
+  "statusError": "hata",
+  "switchProfile": "Profil değiştir",
+  "manageProfiles": "Profilleri yönet",
+  "routing": "Yönlendirme",
+  "routingChipSubtitle": "{mode} · Kurallar’da değiştir",
+  "@routingChipSubtitle": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "routingModeGlobal": "Küresel",
+  "routingModeRules": "Kurallar",
+  "routingModeDirect": "Doğrudan",
+  "homeReadyTitle": "Bağlı değil",
+  "homeReadyTunnel": "Bağla bu cihazda sistem VPN’i başlatır",
+  "homeReadySocks": "Bu işletim sisteminde henüz sistem VPN’i yok — Bağla yerel bir SOCKS vekilidir",
+  "homeBusyTitle": "Bağlanıyor",
+  "homeBusyTunnel": "İşletim sisteminden VPN tüneli isteniyor",
+  "homeBusySocks": "Yerel SOCKS vekili başlatılıyor",
+  "homeConnectedTunnelTitle": "Sistem VPN",
+  "homeConnectedTunnelSubtitle": "Cihaz trafiği ev IP’nizden değil tünelden gider",
+  "homeConnectedSocksTitle": "Yerel SOCKS",
+  "homeConnectedSocksSubtitle": "Bu işletim sisteminde sistem tüneli yok. Uygulamalar 127.0.0.1:10808 kullanmalı — IP’niz gizlenmez",
+  "revokedTitle": "Abonelik bağlantısı iptal edildi",
+  "revokedBody": "Profiller’de yeni bir URL yapıştırın. Eski düğümler yedek içe aktarana kadar kalır.",
+  "openProfiles": "Profilleri aç",
+  "elevationTitle": "Yönetici hakları gerekli",
+  "runAsAdministrator": "Yönetici olarak çalıştır",
+  "quotaUsedOfTotal": "{used} / {total} VLESS+Hy2",
+  "@quotaUsedOfTotal": {
+    "placeholders": {
+      "used": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "quotaUsedOnly": "{used} kullanıldı · VLESS+Hy2",
+  "@quotaUsedOnly": {
+    "placeholders": {
+      "used": {
+        "type": "String"
+      }
+    }
+  },
+  "quotaExpired": "süresi doldu",
+  "quotaDaysLeft": "{days}g kaldı",
+  "@quotaDaysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "quotaScopeNote": "VLESS+Hy2 trafiği — TrustTunnel sayılmaz",
+  "profilesEyebrow": "Ağınız",
+  "profilesTitle": "Sunucu profilleri",
+  "tooltipPinging": "Ping atılıyor…",
+  "tooltipCheckPing": "Ping denetle",
+  "noProfilesToPing": "Ping atılacak profil yok",
+  "tooltipImportLink": "Bağlantı veya abonelik içe aktar",
+  "searchServersHint": "Sunucu veya protokol ara",
+  "smartConnect": "Akıllı bağlan",
+  "smartConnectSubtitle": "Ana sayfa Bağla, geçerli abonelikteki en düşük Ping düğümünü kullanır",
+  "emptyProfiles": "Henüz kayıtlı profil yok.\nBir paylaşım bağlantısı veya https:// abonelik URL’si içe aktarın.",
+  "noMatches": "Eşleşme yok",
+  "pinging": "ping atılıyor",
+  "fastest": "en hızlı",
+  "delete": "Sil",
+  "deleteProfileConfirm": "Bu profil silinsin mi?",
+  "deleteSubscriptionConfirm": "Bu abonelik ve kayıtlı düğümleri kaldırılsın mı?",
+  "updatedSubscription": "{name} güncellendi",
+  "@updatedSubscription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "importProfile": "Profil içe aktar",
+  "nameOptional": "Ad (isteğe bağlı)",
+  "importLinkLabel": "Paylaşım bağlantısı veya https:// abonelik URL’si",
+  "paste": "Yapıştır",
+  "scanQr": "QR tara",
+  "cancel": "İptal",
+  "import": "İçe aktar",
+  "unrecognizedShareLink": "Tanınmayan paylaşım bağlantısı",
+  "editProfile": "Profili düzenle",
+  "name": "Ad",
+  "shareLink": "Paylaşım bağlantısı",
+  "apply": "Uygula",
+  "importedManual": "İçe aktarıldı",
+  "subscriptionFallback": "Abonelik",
+  "revokedKeepNodes": "Bağlantı iptal edildi — yeni bir URL yapıştırın. Düğümler temizlenmedi.",
+  "nodesWithQuota": "{info} · {count} düğüm",
+  "@nodesWithQuota": {
+    "placeholders": {
+      "info": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "nodesCount": "{count, plural, =1{1 düğüm} other{{count} düğüm}}",
+  "@nodesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "refreshSubscription": "Aboneliği yenile",
+  "removeSubscription": "Aboneliği kaldır",
+  "nothingToImport": "İçe aktarılacak bir şey yok",
+  "subscriptionImported": "Abonelik içe aktarıldı",
+  "importedSubscriptionNodes": "{name} içe aktarıldı ({count} düğüm)",
+  "@importedSubscriptionNodes": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileImported": "Profil içe aktarıldı",
+  "settingsEyebrow": "Uygulama",
+  "settingsTitle": "Ayarlar",
+  "appearance": "Görünüm",
+  "colorTheme": "Renk teması",
+  "colorThemeSubtitle": "Kağıt açık ve lacivert koyu. Sistem telefonu izler.",
+  "themeLight": "Açık",
+  "themeDark": "Koyu",
+  "themeSystem": "Sistem",
+  "language": "Dil",
+  "languageSubtitle": "İngilizce ve Rusça. Sistem telefonu izler.",
+  "localeSystem": "Sistem",
+  "localeEnglish": "English",
+  "localeRussian": "Русский",
+  "general": "Genel",
+  "advancedMode": "Gelişmiş mod",
+  "advancedModeSubtitle": "Günlükler sekmesi ve ileri düzey seçenekler",
+  "reconnectOnLaunch": "Açılışta yeniden bağlan",
+  "reconnectOnLaunchSubtitle": "İşletim sistemi VPN’i kapalıysa son profili başlat",
+  "dns": "DNS",
+  "dnsSystem": "Sistem",
+  "dnsCustom": "Özel",
+  "dnsDoh": "DoH",
+  "dnsServerLabel": "DNS sunucusu / DoH URL’si",
+  "dnsSaved": "DNS tercihi kaydedildi",
+  "saveDns": "DNS’i kaydet",
+  "killSwitch": "Kill Switch",
+  "killSwitchSubtitleAndroid": "Android ayarlarındaki Always-on VPN. Buradaki anahtar tek başına sızıntıyı önlemez.",
+  "killSwitchSubtitleAndroidTrustTunnel": "Sonraki TrustTunnel Bağla’da eklenti sızıntı kilidi. Yeniden başlatmadan sonra yine Always-on gerekir.",
+  "killSwitchSubtitleIos": "Tünel düşerse yeniden bağlanır. Anlık bildirim, Watch ve iMessage erişilebilir kalır.",
+  "killSwitchSubtitleIosTrustTunnel": "Bu TrustTunnel oturumu için eklenti sızıntı kilidi. Kes, SOCKS VPN başlamadan önce onu kapatır.",
+  "killSwitchAndroidEnableTitle": "Sistem sızıntı korumasını aç",
+  "killSwitchAndroidEnableBody": "1. Sonraki ekranda Goodwin VPN’e (SOCKS veya TrustTunnel) dokunun.\n2. Always-on VPN’i açın.\n3. VPN olmadan bağlantıları engelle’yi açın.\n4. Buraya dönüp Bağla’ya dokunun.\n\nUygulama bu Android anahtarlarını kendi başına değiştiremez. TrustTunnel sonraki Bağla’da eklenti sızıntı korumasını da kullanır.",
+  "killSwitchAndroidDisableTitle": "Önce Always-on’u kapatın",
+  "killSwitchAndroidDisableBody": "Android VPN ayarlarında Goodwin için Always-on VPN ve VPN olmadan bağlantıları engelle’yi kapatın. Yoksa Kes tüneli geri getirir.",
+  "killSwitchOpenSettings": "VPN ayarlarını aç",
+  "killSwitchDisconnectTitle": "Always-on yeniden bağlayabilir",
+  "killSwitchDisconnectBody": "Android Always-on VPN, Kes’ten sonra tüneli geri getirebilir. Ağı tamamen açık istiyorsanız sistem VPN ayarlarında Always-on’u kapatın.",
+  "killSwitchDisconnectConfirm": "Kes",
+  "coreTuning": "Çekirdek ayarı",
+  "advancedDangerTooltip": "Gelişmiş — bağlantıyı bozabilir",
+  "mux": "Mux",
+  "muxSubtitle": "Vision ile uygulanmaz — tipik VLESS ayağa kalkar",
+  "fragment": "Fragment",
+  "fragmentSubtitle": "REALITY üzerinde uygulanmaz — yalnızca TLS hello",
+  "dnsHintWithTuning": "DNS IP’leri bağlantıda işletim sistemi TUN’una uygulanır. DoH, Xray JSON’una girer; TUN yine önyükleme IP’lerini kullanır. Mux / Fragment: yalnızca Xray.",
+  "dnsHintSimple": "DNS IP’leri bağlantıda işletim sistemi TUN’una uygulanır.",
+  "backup": "Yedek",
+  "exportBackup": "Yedek dosyasını dışa aktar",
+  "exportBackupSubtitle": "Profiller ve abonelikler. İsteğe bağlı parola dosyayı şifreler",
+  "importBackup": "Yedek dosyasını içe aktar",
+  "importBackupSubtitle": "Geçerli kataloğa birleştirilir",
+  "copyJsonClipboard": "JSON’u panoya kopyala",
+  "copyJsonClipboardSubtitle": "Şifresiz — panoyu okuyan herkes bağlantıları görür",
+  "copiedEmptyProfiles": "Boş profil listesi kopyalandı",
+  "copiedProfilesJson": "{count} profil şifresiz JSON olarak kopyalandı",
+  "@copiedProfilesJson": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "exportBackupTitle": "Yedeği dışa aktar",
+  "exportBackupPasswordHint": "Düz JSON dosyası için boş bırakın. Parola AES-256-GCM kullanır.",
+  "backupFileSaved": "Yedek dosyası kaydedildi",
+  "encryptedBackupSaved": "Şifreli yedek dosyası kaydedildi",
+  "encryptedBackupTitle": "Şifreli yedek",
+  "encryptedBackupHint": "Dışa aktarırken kullanılan parolayı girin.",
+  "importedBackupCounts": "{profiles} profil ve {subs} abonelik içe aktarıldı",
+  "@importedBackupCounts": {
+    "placeholders": {
+      "profiles": {
+        "type": "int"
+      },
+      "subs": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordOptional": "Parola (isteğe bağlı)",
+  "password": "Parola",
+  "confirmPassword": "Parolayı doğrula",
+  "passwordsDoNotMatch": "Parolalar eşleşmiyor",
+  "continueAction": "Devam",
+  "about": "Hakkında",
+  "aboutSubtitle": "Kendi sunucunuz için VPN istemcisi",
+  "privacy": "Gizlilik",
+  "privacySubtitle": "Kamera, VPN, cihazdaki sırlar, pano yedekleri",
+  "privacyWhatTitle": "Bu uygulama ne kullanır",
+  "privacyWhatBody": "GoodWin VPN yerel bir istemcidir. Bu sürümde Goodwin hesap sunucusu ve analitik SDK yoktur.",
+  "privacyVpnTitle": "VPN",
+  "privacyVpnBody": "Sistem tüneli olan platformlarda cihaz trafiği içe aktardığınız paylaşım bağlantısındaki düğüme gönderilir. Uygulama bir Goodwin vekili işletmez. Bu işletim sisteminde sistem tüneli yoksa Bağla yalnızca 127.0.0.1:10808 adresinde yerel bir SOCKS vekili başlatır.",
+  "privacySecretsTitle": "Yapılandırmalar ve sırlar",
+  "privacySecretsBody": "Paylaşım bağlantıları, kayıtlı profiller ve abonelik URL’leri bu cihazda AES-256-GCM ile şifrelenerek saklanır. Şifreleme anahtarı işletim sistemi keystore / keychain’inde durur, şifreli metnin yanında değil. Platform keystore kullanılamıyorsa uygulama bu değerleri şifreli tutamaz.",
+  "privacyCameraTitle": "Kamera",
+  "privacyCameraBody": "Kamera yalnızca paylaşım bağlantısı veya abonelik URL’si içeren bir QR kodunu taramak için kullanılır. Kareler yüklenmez.",
+  "privacyClipboardTitle": "Pano ve yedekler",
+  "privacyClipboardBody": "JSON’u panoya kopyala şifresiz bir yedek yazar. Panoyu okuyabilen herkes bu bağlantıları okuyabilir. Dosya dışa aktarma isteğe bağlı parola kullanabilir (AES-256-GCM).",
+  "privacyAppsTitle": "Yüklü uygulamalar (Android)",
+  "privacyAppsBody": "Uygulama başına bölünmüş tünel, VPN’den hariç tutabilmeniz için cihazdaki başlatıcı uygulama listesini okur. Liste cihazda kalır.",
+  "privacyOpenWeb": "Gizlilik politikasını aç",
+  "privacyOpenFailed": "Gizlilik politikası URL’si açılamadı",
+  "rulesEyebrow": "Trafik politikası",
+  "rulesTitle": "Yönlendirme kuralları",
+  "reset": "Sıfırla",
+  "resetRulesConfirm": "Yönlendirme varsayılana sıfırlansın mı?",
+  "mode": "Mod",
+  "modeHintGlobalRich": "Eşleşen tüm trafik → vekil (Xray varsayılanı).",
+  "modeHintGlobalSimple": "Hysteria2 için önerilir.",
+  "modeHintGlobalTrustTunnel": "Always-exclude dışında tüm trafik tünelden.",
+  "modeHintRules": "Ön ayarlar + özel kurallar; eşleşmeyen → vekil (Xray).",
+  "modeHintRulesTrustTunnel": "Doğrudan etki alanları/CIDR’ler TrustTunnel dışlamaları olur. Block atlanır. Eşleşmeyen tünelde kalır.",
+  "modeHintDirect": "Hepsi → freedom. TUN açık kalır (yalnızca Xray).",
+  "presets": "Ön ayarlar",
+  "presetBlockAds": "Reklamları engelle (sınırlı)",
+  "presetBlockAdsPack": "Reklamları engelle",
+  "presetBlockAdsSubtitle": "Küçük yerleşik ana bilgisayar listesi → block (Xray; geosite değil)",
+  "presetBlockAdsPackXray": "Hizmet reklam paketi → block (geosite değil)",
+  "presetBlockAdsPackTrustTunnel": "Hizmet reklam paketi → TrustTunnel dışlamaları (eklentide block yok)",
+  "presetBypassLan": "LAN / özel ağı atla",
+  "presetBypassLanSubtitle": "RFC1918 / bağlantı-yerel CIDR’ler → TUN dışlamaları (bölge/geoip değil)",
+  "presetBypassLanAndroid13": "LAN atlama Android 13+ ister. Bu sürümde CIDR dışlamaları işe yaramaz.",
+  "presetProtectBanking": "Bankacılığı koru",
+  "presetProtectBankingSubtitle": "Yüklü banka uygulamaları TUN’u atlar (Android uygulama başına)",
+  "appsSkipVpn": "VPN’i atlayan uygulamalar",
+  "appsSkipVpnEmpty": "Bankacılığı koru dışındaki isteğe bağlı ekler",
+  "appsSkipVpnSelected": "{count} seçildi · sonraki bağlantıda uygulanır",
+  "@appsSkipVpnSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "switchToRulesForPresets": "Ön ayarları kullanmak için Kurallar moduna geçin.",
+  "alwaysExcludeMerged": "Always-exclude CIDR’leri bağlantıda her arka uç için IP-doğrudan kurallarıyla birleştirilir. Bunları aşağıdaki Gelişmiş’te düzenleyin.",
+  "alwaysExcludeCidr": "Her zaman hariç tut (CIDR)",
+  "alwaysExcludeHint": "Satır başına bir IP veya CIDR. Sonraki bağlantıda uygulanır.",
+  "cidrHint": "Satır başına bir IP veya CIDR\nör. 10.0.0.0/8",
+  "customRules": "Özel kurallar",
+  "customRulesHint": "Etki alanı soneki, IP veya CIDR → proxy / direct / block. Bağlantıda Xray’e uygulanır. IP doğrudan ayrıca işletim sistemi dışlamalarına gider.",
+  "customRulesHintTrustTunnel": "Etki alanı veya CIDR → proxy (tünelde kal) veya direct (hariç tut). Block yok. geosite yok.",
+  "matcher": "Eşleştirici",
+  "matcherHint": ".ads.example · 10.0.0.0/8",
+  "addRule": "Kural ekle",
+  "noCustomRules": "Henüz özel kural yok",
+  "osExclude": "{action} · işletim sistemi dışlaması",
+  "@osExclude": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "routingRuleBlockSkipped": "block · TrustTunnel’da atlanır (eklentide block yok)",
+  "enableAdvancedForRouting": "Ek yönlendirme denetimleri için Ayarlar’da Gelişmiş modu açın.",
+  "searchApps": "Uygulama ara",
+  "save": "Kaydet",
+  "routingBannerXray": "Xray profili: Küresel / Kurallar / Doğrudan ve etki alanı kuralları bağlantıda uygulanır.",
+  "routingBannerHysteria": "Hysteria2 profili: etki alanı/block kuralları ve Xray Direct uygulanmaz. Küresel kullanın; Always-exclude CIDR’leri ve IP-doğrudan yine TUN’a birleşir.",
+  "routingBannerTrustTunnel": "TrustTunnel: Kurallar’daki doğrudan etki alanları/CIDR’ler dışlama olur. Block atlanır (eklentide block yok). Doğrudan mod uygulanmaz. Always-exclude yine birleşir. Uygulama başına bölme yalnızca SOCKS. Kill Switch sonraki TrustTunnel bağlantısında uygulanır.",
+  "routingBannerUnknown": "Hangi yönlendirme özelliklerinin uygulanacağını görmek için bir profil seçin veya bağlayın.",
+  "logsEyebrow": "Tanılama",
+  "logsTitle": "Günlükler",
+  "copyFiltered": "Süzüleni kopyala",
+  "clear": "Temizle",
+  "logCopied": "Günlük kopyalandı",
+  "logsHint": "Çekirdek konsolu. Renkler sezgiseldir (error/warn anahtar sözcükleri).",
+  "filterHint": "Süz…",
+  "logsAll": "Tümü",
+  "logsWarnPlus": "Warn+",
+  "logsError": "Error",
+  "noLogLinesYet": "Henüz günlük satırı yok",
+  "noMatchesForFilter": "Süzgeç için eşleşme yok",
+  "vpnConsole": "VPN konsolu",
+  "logsSheetEmpty": "Henüz satır yok. Akış bekleniyor…",
+  "copy": "Kopyala",
+  "openLogs": "Günlükleri aç",
+  "tapToRetry": "Yeniden denemek için dokunun",
+  "homeErrorTitle": "Bağlanılamadı",
+  "homeErrorTunnel": "Tünel başarısız — yeniden denemek için dokunun",
+  "homeErrorSocks": "Yerel SOCKS başarısız — yeniden denemek için dokunun",
+  "activeProfile": "ETKİN PROFİL",
+  "socksInbound": "Yerel SOCKS",
+  "socksInboundSubtitle": "Her bağlantıda rastgele kimlik bilgisi üretmek için kullanıcı ve parolayı boş bırakın. Diğer uygulamalar: 127.0.0.1 ve bu kimlik bilgileri.",
+  "socksPort": "Bağlantı noktası",
+  "socksUsername": "Kullanıcı adı",
+  "socksPassword": "Parola",
+  "saveSocks": "SOCKS’u kaydet",
+  "socksSaved": "SOCKS kaydedildi",
+  "killSwitchAndroidConfirmTitle": "Always-on’u açtınız mı?",
+  "killSwitchAndroidConfirmBody": "Uygulama Android VPN anahtarlarını değiştiremez. Kill Switch’i burada yalnızca GoodWin VPN için Always-on ve VPN olmadan bağlantıları engelle açık olduktan sonra açın.",
+  "killSwitchAndroidConfirmYes": "Evet, açıklar",
+  "killSwitchAndroidConfirmNo": "Henüz değil",
+  "killSwitchIosDisconnectFailed": "İstek üzerine kapatılamadı. Kes, yeniden deneyene kadar kalıcı olmayabilir.",
+  "support": "Destek",
+  "supportSubtitle": "İşletmeci destek sayfasını aç",
+  "supportUnavailable": "Bu abonelikte destek URL’si yok",
+  "licenses": "Açık kaynak lisansları",
+  "licensesSubtitle": "Bu uygulamada paketlenmiş çekirdekler ve kitaplıklar",
+  "licensesBody": "Bu uygulama Xray-core, Hysteria 2, hev-socks5-tunnel, TrustTunnel, Flutter ve Inter (SIL OFL) paketler. Kaynak ve lisanslar proje depolarındadır.",
+  "onboardingSkip": "Atla",
+  "onboardingNext": "İleri",
+  "onboardingDone": "Başla",
+  "onboardingServerTitle": "Sunucunuz",
+  "onboardingServerBody": "GoodWin VPN, içe aktardığınız bir düğüm için istemcidir. Goodwin bulut vekili yoktur. Profiller’de bir paylaşım bağlantısı veya https abonelik URL’si ekleyin.",
+  "onboardingVpnTitle": "Sistem VPN",
+  "onboardingVpnBody": "Bağla, işletim sisteminden bir VPN yapılandırması eklemesini ister. Bu iletişim kutusu Android veya iOS’tandır, bu uygulamadan değil. Trafik ardından seçtiğiniz profildeki düğüme gider.",
+  "onboardingCameraTitle": "QR için kamera",
+  "onboardingCameraBody": "Kamera isteğe bağlıdır ve yalnızca paylaşım bağlantısı veya abonelik URL’si içeren bir QR tarar. Kareler cihazda kalır.",
+  "vpnExplainerTitle": "Sistem VPN izni",
+  "vpnExplainerBody": "Sonraki ekran işletim sistemi VPN iletişim kutusudur. Yalnızca bu cihazın trafiği içe aktarılan düğüm üzerinden göndermesini istiyorsanız izin verin.",
+  "vpnExplainerContinue": "Devam",
+  "cameraExplainerTitle": "Kamera izni",
+  "cameraExplainerBody": "Sonraki ekran kamerayı isteyebilir. Yalnızca bir yapılandırma QR’sini taramak için kullanılır. Kareler yüklenmez.",
+  "cameraExplainerContinue": "QR tara",
+  "importLinkHint": "Bir paylaşım bağlantısı veya https:// abonelik URL’si yapıştırın. Uygulama bir vekil barındırmaz."
+}

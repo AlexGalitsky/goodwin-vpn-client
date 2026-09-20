@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - TrustTunnelClient (1.1.5-rc.6)
+  - vpn_plugin (0.0.1):
+    - Flutter
+    - TrustTunnelClient
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - TrustTunnelClient (from `../../refs/trusttunnel-client/specs/TrustTunnelClient.podspec`)
+  - vpn_plugin (from `.symlinks/plugins/vpn_plugin/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  TrustTunnelClient:
+    :podspec: "../../refs/trusttunnel-client/specs/TrustTunnelClient.podspec"
+  vpn_plugin:
+    :path: ".symlinks/plugins/vpn_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 71a624a5bc0c04062bf19101d501e466baf2fb47
+  TrustTunnelClient: 63f95b8005361b89e7a80d63852f159a24ec2795
+  vpn_plugin: d8f4ce48bfe0365011dd972df33d0b6020220d74
+
+PODFILE CHECKSUM: 8bfd9426395344f05f85cbc4f759a5563117407d
+
+COCOAPODS: 1.16.2

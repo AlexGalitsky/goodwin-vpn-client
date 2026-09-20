@@ -1,0 +1,386 @@
+{
+  "@@locale": "es",
+  "appTitle": "GoodWin VPN",
+  "navHome": "Inicio",
+  "navProfiles": "Perfiles",
+  "navRules": "Reglas",
+  "navLogs": "Registros",
+  "navSettings": "Ajustes",
+  "connectVpn": "Conectar VPN",
+  "disconnectVpn": "Desconectar VPN",
+  "noProfile": "Sin perfil",
+  "addProfileToConnect": "Agrega un perfil para conectar",
+  "addProfileToConnectHint": "Importa un enlace para compartir en Perfiles y luego toca Conectar aquí.",
+  "addProfile": "Agregar perfil",
+  "networkStatus": "ESTADO DE LA RED",
+  "tapToDisconnect": "Toca para desconectar",
+  "tapToConnect": "Toca para conectar",
+  "statNode": "Nodo",
+  "statPing": "Ping",
+  "statUptime": "Tiempo activo",
+  "sessionLogs": "Registros de sesión",
+  "noLinesYet": "Aún no hay líneas",
+  "logLinesCount": "{count} líneas",
+  "@logLinesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "uacDeclined": "Se rechazó el aviso de UAC",
+  "statusOffline": "desconectado",
+  "statusConnecting": "conectando",
+  "statusConnected": "conectado",
+  "statusDisconnecting": "desconectando",
+  "statusError": "error",
+  "switchProfile": "Cambiar perfil",
+  "manageProfiles": "Administrar perfiles",
+  "routing": "Enrutamiento",
+  "routingChipSubtitle": "{mode} · cambiar en Reglas",
+  "@routingChipSubtitle": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "routingModeGlobal": "Global",
+  "routingModeRules": "Reglas",
+  "routingModeDirect": "Directo",
+  "homeReadyTitle": "Desconectado",
+  "homeReadyTunnel": "Conectar inicia un VPN del sistema en este dispositivo",
+  "homeReadySocks": "Este SO aún no tiene VPN del sistema — Conectar es un proxy SOCKS local",
+  "homeBusyTitle": "Conectando",
+  "homeBusyTunnel": "Solicitando un túnel VPN al SO",
+  "homeBusySocks": "Iniciando un proxy SOCKS local",
+  "homeConnectedTunnelTitle": "VPN del sistema",
+  "homeConnectedTunnelSubtitle": "El tráfico del dispositivo pasa por el túnel, no por tu IP de casa",
+  "homeConnectedSocksTitle": "SOCKS local",
+  "homeConnectedSocksSubtitle": "No hay túnel del sistema en este SO. Las apps deben usar 127.0.0.1:10808 — tu IP no está oculta",
+  "revokedTitle": "Se revocó el enlace de suscripción",
+  "revokedBody": "Pega una URL nueva en Perfiles. Los nodos antiguos se quedan hasta que importes un reemplazo.",
+  "openProfiles": "Abrir Perfiles",
+  "elevationTitle": "Se requieren derechos de administrador",
+  "runAsAdministrator": "Ejecutar como administrador",
+  "quotaUsedOfTotal": "{used} / {total} VLESS+Hy2",
+  "@quotaUsedOfTotal": {
+    "placeholders": {
+      "used": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "quotaUsedOnly": "{used} usados · VLESS+Hy2",
+  "@quotaUsedOnly": {
+    "placeholders": {
+      "used": {
+        "type": "String"
+      }
+    }
+  },
+  "quotaExpired": "vencido",
+  "quotaDaysLeft": "{days} d restantes",
+  "@quotaDaysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "quotaScopeNote": "Tráfico VLESS+Hy2 — TrustTunnel sin contar",
+  "profilesEyebrow": "Tu red",
+  "profilesTitle": "Perfiles de servidor",
+  "tooltipPinging": "Midiendo Ping…",
+  "tooltipCheckPing": "Comprobar Ping",
+  "noProfilesToPing": "No hay perfiles para hacer ping",
+  "tooltipImportLink": "Importar enlace o suscripción",
+  "searchServersHint": "Buscar servidores o protocolos",
+  "smartConnect": "Conexión inteligente",
+  "smartConnectSubtitle": "Conectar en Inicio usa el nodo con el Ping más bajo de la suscripción actual",
+  "emptyProfiles": "Aún no hay perfiles guardados.\nImporta un enlace para compartir o una URL de suscripción https://.",
+  "noMatches": "Sin coincidencias",
+  "pinging": "Ping en curso",
+  "fastest": "más rápido",
+  "delete": "Eliminar",
+  "deleteProfileConfirm": "¿Eliminar este perfil?",
+  "deleteSubscriptionConfirm": "¿Quitar esta suscripción y sus nodos guardados?",
+  "updatedSubscription": "Se actualizó {name}",
+  "@updatedSubscription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "importProfile": "Importar perfil",
+  "nameOptional": "Nombre (opcional)",
+  "importLinkLabel": "Enlace para compartir o URL de suscripción https://",
+  "paste": "Pegar",
+  "scanQr": "Escanear QR",
+  "cancel": "Cancelar",
+  "import": "Importar",
+  "unrecognizedShareLink": "Enlace para compartir no reconocido",
+  "editProfile": "Editar perfil",
+  "name": "Nombre",
+  "shareLink": "Enlace para compartir",
+  "apply": "Aplicar",
+  "importedManual": "Importado",
+  "subscriptionFallback": "Suscripción",
+  "revokedKeepNodes": "Enlace revocado — pega una URL nueva. Los nodos no se borraron.",
+  "nodesWithQuota": "{info} · {count} nodos",
+  "@nodesWithQuota": {
+    "placeholders": {
+      "info": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "nodesCount": "{count, plural, =1{1 nodo} other{{count} nodos}}",
+  "@nodesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "refreshSubscription": "Actualizar suscripción",
+  "removeSubscription": "Quitar suscripción",
+  "nothingToImport": "Nada que importar",
+  "subscriptionImported": "Suscripción importada",
+  "importedSubscriptionNodes": "Se importó {name} ({count} nodos)",
+  "@importedSubscriptionNodes": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileImported": "Perfil importado",
+  "settingsEyebrow": "Aplicación",
+  "settingsTitle": "Ajustes",
+  "appearance": "Apariencia",
+  "colorTheme": "Tema de color",
+  "colorThemeSubtitle": "Papel claro y azul marino oscuro. Sistema sigue el teléfono.",
+  "themeLight": "Claro",
+  "themeDark": "Oscuro",
+  "themeSystem": "Sistema",
+  "language": "Idioma",
+  "languageSubtitle": "Inglés y ruso. Sistema sigue el teléfono.",
+  "localeSystem": "Sistema",
+  "localeEnglish": "English",
+  "localeRussian": "Русский",
+  "general": "General",
+  "advancedMode": "Modo avanzado",
+  "advancedModeSubtitle": "Pestaña de registros y opciones para usuarios avanzados",
+  "reconnectOnLaunch": "Reconectar al iniciar",
+  "reconnectOnLaunchSubtitle": "Iniciar el último perfil si el VPN del SO está caído",
+  "dns": "DNS",
+  "dnsSystem": "Sistema",
+  "dnsCustom": "Personalizado",
+  "dnsDoh": "DoH",
+  "dnsServerLabel": "Servidor DNS / URL DoH",
+  "dnsSaved": "Preferencia de DNS guardada",
+  "saveDns": "Guardar DNS",
+  "killSwitch": "Kill Switch",
+  "killSwitchSubtitleAndroid": "VPN siempre activa en los ajustes de Android. Este interruptor por sí solo no evita fugas.",
+  "killSwitchSubtitleAndroidTrustTunnel": "Bloqueo de fugas del plugin en el próximo Connect de TrustTunnel. Siempre activa sigue siendo necesaria después de reiniciar.",
+  "killSwitchSubtitleIos": "Se reconecta si cae el túnel. Push, Watch e iMessage siguen alcanzables.",
+  "killSwitchSubtitleIosTrustTunnel": "Bloqueo de fugas del plugin para esta sesión de TrustTunnel. Desconectar lo apaga antes de que pueda iniciar un VPN SOCKS.",
+  "killSwitchAndroidEnableTitle": "Activar la protección del sistema contra fugas",
+  "killSwitchAndroidEnableBody": "1. En la siguiente pantalla, toca Goodwin VPN (SOCKS o TrustTunnel).\n2. Activa VPN siempre activa.\n3. Activa Bloquear conexiones sin VPN.\n4. Vuelve aquí y toca Conectar.\n\nLa app no puede cambiar esos interruptores de Android por sí sola. TrustTunnel también usa protección de fugas del plugin en el próximo Conectar.",
+  "killSwitchAndroidDisableTitle": "Primero desactiva Siempre activa",
+  "killSwitchAndroidDisableBody": "En los ajustes de VPN de Android, desactiva VPN siempre activa y Bloquear conexiones sin VPN para Goodwin. Si no, Desconectar volverá a levantar el túnel.",
+  "killSwitchOpenSettings": "Abrir ajustes de VPN",
+  "killSwitchDisconnectTitle": "Siempre activa puede reconectar",
+  "killSwitchDisconnectBody": "La VPN siempre activa de Android puede traer el túnel de vuelta después de Desconectar. Desactiva Siempre activa en los ajustes de VPN del sistema si quieres la red totalmente abierta.",
+  "killSwitchDisconnectConfirm": "Desconectar",
+  "coreTuning": "Ajuste del núcleo",
+  "advancedDangerTooltip": "Avanzado — puede romper la conectividad",
+  "mux": "Mux",
+  "muxSubtitle": "No se usa con Vision — el VLESS típico arranca",
+  "fragment": "Fragment",
+  "fragmentSubtitle": "No se usa en REALITY — solo TLS hello",
+  "dnsHintWithTuning": "Las IP de DNS se aplican al TUN del SO al conectar. DoH va al JSON de Xray; el TUN sigue usando IP de arranque. Mux / Fragment: solo Xray.",
+  "dnsHintSimple": "Las IP de DNS se aplican al TUN del SO al conectar.",
+  "backup": "Respaldo",
+  "exportBackup": "Exportar archivo de respaldo",
+  "exportBackupSubtitle": "Perfiles y suscripciones. Una contraseña opcional cifra el archivo",
+  "importBackup": "Importar archivo de respaldo",
+  "importBackupSubtitle": "Se fusiona con el catálogo actual",
+  "copyJsonClipboard": "Copiar JSON al portapapeles",
+  "copyJsonClipboardSubtitle": "Sin cifrar — cualquiera con el portapapeles puede leer los enlaces",
+  "copiedEmptyProfiles": "Lista de perfiles vacía copiada",
+  "copiedProfilesJson": "Se copiaron {count} perfil(es) como JSON sin cifrar",
+  "@copiedProfilesJson": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "exportBackupTitle": "Exportar respaldo",
+  "exportBackupPasswordHint": "Déjalo vacío para un archivo JSON simple. Una contraseña usa AES-256-GCM.",
+  "backupFileSaved": "Archivo de respaldo guardado",
+  "encryptedBackupSaved": "Archivo de respaldo cifrado guardado",
+  "encryptedBackupTitle": "Respaldo cifrado",
+  "encryptedBackupHint": "Ingresa la contraseña usada al exportar.",
+  "importedBackupCounts": "Se importaron {profiles} perfil(es) y {subs} suscripción(es)",
+  "@importedBackupCounts": {
+    "placeholders": {
+      "profiles": {
+        "type": "int"
+      },
+      "subs": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordOptional": "Contraseña (opcional)",
+  "password": "Contraseña",
+  "confirmPassword": "Confirmar contraseña",
+  "passwordsDoNotMatch": "Las contraseñas no coinciden",
+  "continueAction": "Continuar",
+  "about": "Acerca de",
+  "aboutSubtitle": "Cliente VPN para tu propio servidor",
+  "privacy": "Privacidad",
+  "privacySubtitle": "Cámara, VPN, secretos en el dispositivo, respaldos del portapapeles",
+  "privacyWhatTitle": "Qué usa esta app",
+  "privacyWhatBody": "GoodWin VPN es un cliente local. En esta versión no hay servidor de cuenta Goodwin ni SDK de analítica.",
+  "privacyVpnTitle": "VPN",
+  "privacyVpnBody": "En plataformas con túnel del sistema, el tráfico del dispositivo se envía al nodo del enlace para compartir que importaste. La app no opera un proxy Goodwin. Si este SO no tiene túnel del sistema, Conectar solo inicia un proxy SOCKS local en 127.0.0.1:10808.",
+  "privacySecretsTitle": "Configs y secretos",
+  "privacySecretsBody": "Los enlaces para compartir, perfiles guardados y URL de suscripción se almacenan en este dispositivo, cifrados con AES-256-GCM. La clave vive en el keystore / llavero del SO, no junto al texto cifrado. Si el keystore de la plataforma no está disponible, la app no puede mantener esos valores cifrados.",
+  "privacyCameraTitle": "Cámara",
+  "privacyCameraBody": "La cámara solo se usa para escanear un código QR con un enlace para compartir o una URL de suscripción. Los fotogramas no se suben.",
+  "privacyClipboardTitle": "Portapapeles y respaldos",
+  "privacyClipboardBody": "Copiar JSON al portapapeles escribe un respaldo sin cifrar. Quien pueda leer el portapapeles puede leer esos enlaces. La exportación a archivo puede usar una contraseña opcional (AES-256-GCM).",
+  "privacyAppsTitle": "Apps instaladas (Android)",
+  "privacyAppsBody": "El túnel dividido por app lee la lista de apps del launcher en el dispositivo para que puedas excluir apps del VPN. Esa lista se queda en el dispositivo.",
+  "privacyOpenWeb": "Abrir política de privacidad",
+  "privacyOpenFailed": "No se pudo abrir la URL de la política de privacidad",
+  "rulesEyebrow": "Política de tráfico",
+  "rulesTitle": "Reglas de enrutamiento",
+  "reset": "Restablecer",
+  "resetRulesConfirm": "¿Restablecer el enrutamiento a los valores predeterminados?",
+  "mode": "Modo",
+  "modeHintGlobalRich": "Todo el tráfico coincidente → proxy (predeterminado de Xray).",
+  "modeHintGlobalSimple": "Recomendado para Hysteria2.",
+  "modeHintGlobalTrustTunnel": "Todo el tráfico por el túnel excepto Excluir siempre.",
+  "modeHintRules": "Ajustes preestablecidos + reglas propias; lo no coincidente → proxy (Xray).",
+  "modeHintRulesTrustTunnel": "Los dominios/CIDR directos se vuelven exclusiones de TrustTunnel. Block se omite. Lo no coincidente se queda en el túnel.",
+  "modeHintDirect": "Todo → freedom. El TUN sigue activo (solo Xray).",
+  "presets": "Ajustes preestablecidos",
+  "presetBlockAds": "Bloquear anuncios (limitado)",
+  "presetBlockAdsPack": "Bloquear anuncios",
+  "presetBlockAdsSubtitle": "Lista pequeña de hosts integrada → block (Xray; no geosite)",
+  "presetBlockAdsPackXray": "Paquete de anuncios de servicio → block (no geosite)",
+  "presetBlockAdsPackTrustTunnel": "Paquete de anuncios de servicio → exclusiones TrustTunnel (sin block del plugin)",
+  "presetBypassLan": "Omitir LAN / privado",
+  "presetBypassLanSubtitle": "CIDR RFC1918 / link-local → exclusiones TUN (no una región/geoip)",
+  "presetBypassLanAndroid13": "Omitir LAN necesita Android 13+. Las exclusiones CIDR no hacen nada en esta versión.",
+  "presetProtectBanking": "Proteger banca",
+  "presetProtectBankingSubtitle": "Las apps bancarias instaladas omiten el TUN (Android por app)",
+  "appsSkipVpn": "Apps que omiten el VPN",
+  "appsSkipVpnEmpty": "Extras opcionales además de Proteger banca",
+  "appsSkipVpnSelected": "{count} seleccionadas · se aplica en la próxima conexión",
+  "@appsSkipVpnSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "switchToRulesForPresets": "Cambia al modo Reglas para usar los ajustes preestablecidos.",
+  "alwaysExcludeMerged": "Los CIDR de Excluir siempre se fusionan con las reglas IP-direct al conectar para cada backend. Edítalos en Avanzado abajo.",
+  "alwaysExcludeCidr": "Excluir siempre (CIDR)",
+  "alwaysExcludeHint": "Una IP o CIDR por línea. Se aplica en la próxima conexión.",
+  "cidrHint": "Una IP o CIDR por línea\nej. 10.0.0.0/8",
+  "customRules": "Reglas personalizadas",
+  "customRulesHint": "Sufijo de dominio, IP o CIDR → proxy / direct / block. Se aplica a Xray al conectar. IP direct también alimenta exclusiones del SO.",
+  "customRulesHintTrustTunnel": "Dominio o CIDR → proxy (quedarse en el túnel) o direct (excluir). Block no está disponible. Sin geosite.",
+  "matcher": "Matcher",
+  "matcherHint": ".ads.example · 10.0.0.0/8",
+  "addRule": "Agregar regla",
+  "noCustomRules": "Aún no hay reglas personalizadas",
+  "osExclude": "{action} · exclusión del SO",
+  "@osExclude": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "routingRuleBlockSkipped": "block · omitido en TrustTunnel (sin block del plugin)",
+  "enableAdvancedForRouting": "Activa el modo avanzado en Ajustes para controles extra de enrutamiento.",
+  "searchApps": "Buscar apps",
+  "save": "Guardar",
+  "routingBannerXray": "Perfil Xray: Global / Reglas / Directo y las reglas de dominio se aplican al conectar.",
+  "routingBannerHysteria": "Perfil Hysteria2: las reglas de dominio/block y Xray Direct no se aplican. Usa Global; los CIDR de Excluir siempre y IP-direct siguen fusionándose en el TUN.",
+  "routingBannerTrustTunnel": "TrustTunnel: los dominios/CIDR directos de Reglas se vuelven exclusiones. Block se omite (sin block del plugin). El modo Directo no se aplica. Excluir siempre sigue fusionándose. El split por app es solo SOCKS. Kill Switch se aplica en la próxima conexión TrustTunnel.",
+  "routingBannerUnknown": "Selecciona o conecta un perfil para ver qué funciones de enrutamiento se aplican.",
+  "logsEyebrow": "Diagnóstico",
+  "logsTitle": "Registros",
+  "copyFiltered": "Copiar filtrado",
+  "clear": "Borrar",
+  "logCopied": "Registro copiado",
+  "logsHint": "Consola del núcleo. Los colores son heurísticos (palabras clave error/warn).",
+  "filterHint": "Filtrar…",
+  "logsAll": "Todos",
+  "logsWarnPlus": "Warn+",
+  "logsError": "Error",
+  "noLogLinesYet": "Aún no hay líneas de registro",
+  "noMatchesForFilter": "Sin coincidencias para el filtro",
+  "vpnConsole": "Consola VPN",
+  "logsSheetEmpty": "Aún no hay líneas. Esperando el flujo…",
+  "copy": "Copiar",
+  "openLogs": "Abrir registros",
+  "tapToRetry": "Toca para reintentar",
+  "homeErrorTitle": "No se pudo conectar",
+  "homeErrorTunnel": "Falló el túnel — toca para reintentar",
+  "homeErrorSocks": "Falló el SOCKS local — toca para reintentar",
+  "activeProfile": "PERFIL ACTIVO",
+  "socksInbound": "SOCKS local",
+  "socksInboundSubtitle": "Deja usuario y contraseña vacíos para generar credenciales aleatorias en cada conexión. Otras apps: 127.0.0.1 más esas credenciales.",
+  "socksPort": "Puerto",
+  "socksUsername": "Usuario",
+  "socksPassword": "Contraseña",
+  "saveSocks": "Guardar SOCKS",
+  "socksSaved": "SOCKS guardado",
+  "killSwitchAndroidConfirmTitle": "¿Activaste Siempre activa?",
+  "killSwitchAndroidConfirmBody": "La app no puede cambiar los interruptores de VPN de Android. Activa el Kill Switch aquí solo después de que VPN siempre activa y Bloquear conexiones sin VPN estén activados para GoodWin VPN.",
+  "killSwitchAndroidConfirmYes": "Sí, están activados",
+  "killSwitchAndroidConfirmNo": "Todavía no",
+  "killSwitchIosDisconnectFailed": "No se pudo desactivar on-demand. La desconexión puede no mantenerse hasta que reintentes.",
+  "support": "Soporte",
+  "supportSubtitle": "Abrir la página de soporte del operador",
+  "supportUnavailable": "No hay URL de soporte en esta suscripción",
+  "licenses": "Licencias de código abierto",
+  "licensesSubtitle": "Núcleos y bibliotecas incluidos en esta app",
+  "licensesBody": "Esta app incluye Xray-core, Hysteria 2, hev-socks5-tunnel, TrustTunnel, Flutter e Inter (SIL OFL). El código fuente y las licencias están en los repositorios del proyecto.",
+  "onboardingSkip": "Omitir",
+  "onboardingNext": "Siguiente",
+  "onboardingDone": "Empezar",
+  "onboardingServerTitle": "Tu servidor",
+  "onboardingServerBody": "GoodWin VPN es un cliente para un nodo que importas. No hay un proxy en la nube Goodwin. Agrega un enlace para compartir o una URL de suscripción https en Perfiles.",
+  "onboardingVpnTitle": "VPN del sistema",
+  "onboardingVpnBody": "Conectar pide al SO que agregue una configuración VPN. Ese diálogo es de Android o iOS, no de esta app. El tráfico luego va al nodo del perfil que seleccionaste.",
+  "onboardingCameraTitle": "Cámara para QR",
+  "onboardingCameraBody": "La cámara es opcional y solo escanea un QR con un enlace para compartir o una URL de suscripción. Los fotogramas se quedan en el dispositivo.",
+  "vpnExplainerTitle": "Permiso de VPN del sistema",
+  "vpnExplainerBody": "La siguiente pantalla es el diálogo de VPN del SO. Permítelo solo si quieres que este dispositivo envíe tráfico por el nodo importado.",
+  "vpnExplainerContinue": "Continuar",
+  "cameraExplainerTitle": "Permiso de cámara",
+  "cameraExplainerBody": "La siguiente pantalla puede pedir la cámara. Solo se usa para escanear un QR de configuración. Los fotogramas no se suben.",
+  "cameraExplainerContinue": "Escanear QR",
+  "importLinkHint": "Pega un enlace para compartir o una URL de suscripción https://. La app no aloja un proxy."
+}

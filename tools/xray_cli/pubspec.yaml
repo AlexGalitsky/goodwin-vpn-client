@@ -1,0 +1,17 @@
+name: xray_cli
+description: Dart FFI smoke test for libxray.dll using goodwin_vpn_core.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  ffi: ^2.2.0
+  goodwin_vpn_core:
+    path: ../../goodwin-vpn-core/packages/goodwin_vpn_core
+  path: ^1.9.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6

@@ -1,0 +1,17 @@
+name: goodwin_vpn_core
+description: Share-link parsers, VPN profile models, and Xray JSON config builder.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  ffi: ^2.2.0
+  freezed_annotation: ^3.1.0
+
+dev_dependencies:
+  build_runner: ^2.15.1
+  freezed: ^3.2.5
+  lints: ^6.0.0
+  test: ^1.31.1
